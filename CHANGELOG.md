@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file. See [conven
 
 ---
 
+## [0.37.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.36.0..v0.37.0) - 2026-08-26
+
+### Features
+
+- update formatter config - ([7132372](https://github.com/MRDGH2821/copier-mr-minimal/commit/7132372065c9750a5bf71ad508557712a550de4e)) - MRDGH2821
+
+### Style
+
+- format files - ([80c25b9](https://github.com/MRDGH2821/copier-mr-minimal/commit/80c25b9ecf71ffaa0f23d2bda89c9698df20555f)) - MRDGH2821
+
+---
+
 ## [0.36.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.35.0..v0.36.0) - 2026-08-21
 
 ### Documentation
