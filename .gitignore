@@ -26,9 +26,9 @@ opencode.json
 .devenv
 .direnv
 .git
+.pre-commit-config.yaml
 .svn
 .venv/
-.pre-commit-config.yaml
 .worktrees
 __MACOSX
 __pycache__
