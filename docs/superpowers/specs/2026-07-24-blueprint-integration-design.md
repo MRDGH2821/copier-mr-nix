@@ -6,7 +6,7 @@ Split `flake.nix` into modular Nix files as per the [Blueprint Folder Structure 
 
 ## Directory Structure
 
-```
+```text
 copier-mr-minimal/
 ├── flake.nix
 ├── treefmt.nix
@@ -26,6 +26,7 @@ copier-mr-minimal/
 
 - Adds `blueprint.url = "github:numtide/blueprint";` to inputs.
 - Delegates output generation to `inputs.blueprint`:
+
   ```nix
   outputs = inputs: inputs.blueprint {
     inherit inputs;

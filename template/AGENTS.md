@@ -18,9 +18,11 @@ date '+%Y-%m-%d' # e.g. 2026-03-16
 ```
 
 - If `.agents/logs/YYYY-MM-DD.md` does not exist → create it with the header:
+
   ```markdown
   # AI Work Log - YYYY-MM-DD
   ```
+
 - If it already exists → append to it (do NOT overwrite)
 
 **Step 2 — Open your entry immediately:**

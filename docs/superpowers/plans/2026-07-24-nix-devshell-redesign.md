@@ -45,7 +45,6 @@ Run: `treefmt -vv && git add treefmt.nix && git commit -m "feat(treefmt): enable
 
 - Modify: `flake.nix`
 - Modify: `cog.toml`
-
 - [ ] **Step 1: Update cog.toml scopes if needed**
 
 Add `"nix"` to valid scopes in `cog.toml`.

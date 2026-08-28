@@ -27,7 +27,6 @@
 
 - Consumes: `inputs.treefmt-nix`, `./treefmt.nix`
 - Produces: `formatter.<system>` and `checks.<system>.formatting`
-
 - [ ] **Step 1: Create `nix/formatter.nix`**
 
 ```nix
@@ -63,7 +62,6 @@ Co-authored-by: Gemini 3.6 Flash via Antigravity <noreply@google.com>"
 
 - Consumes: `inputs.git-hooks`, `inputs.treefmt-nix`, `pkgs`, `system`
 - Produces: `checks.<system>.pre-commit-check`
-
 - [ ] **Step 1: Create `nix/checks/pre-commit-check.nix`**
 
 ```nix
@@ -151,7 +149,6 @@ Co-authored-by: Gemini 3.6 Flash via Antigravity <noreply@google.com>"
 
 - Consumes: `inputs.mcp-servers-nix`, `inputs.agent-skills`, `inputs.awesome-copilot`
 - Produces: `mcpOpencodeConfig` derivation and `skillsShellHook` script snippet
-
 - [ ] **Step 1: Create `nix/mcp.nix`**
 
 ```nix
@@ -254,7 +251,6 @@ Co-authored-by: Gemini 3.6 Flash via Antigravity <noreply@google.com>"
 
 - Consumes: `nix/mcp.nix`, `nix/skills.nix`, `flake.checks.${system}.pre-commit-check`, `inputs.blueprint`
 - Produces: `devShells.<system>.default` and full Blueprint flake evaluation
-
 - [ ] **Step 1: Create `nix/devshell.nix`**
 
 ```nix
