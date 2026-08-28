@@ -149,7 +149,7 @@ For example:
 
 ### CSpell (Spell Checking)
 
-- Configuration is in `.cspell.json`
+- Configuration is in `.config/cspell.json`
 - Add project-specific words to the `words` array
 - Don't disable spell checking without good reason
 - Both file content and commit messages are spell-checked
@@ -190,7 +190,7 @@ chore(cspell): add technical terms to dictionary
 
 **Spell check failures:**
 
-- Add legitimate technical terms to `.cspell.json` `words` array
+- Add legitimate technical terms to `.config/cspell.json` `words` array
 - Use proper capitalization for proper nouns
 - Don't add obvious typos to the dictionary
 

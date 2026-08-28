@@ -78,8 +78,8 @@
       enable = true;
       excludes = [
         # keep-sorted start
-        "**/.cspell.json"
-        ".cspell.json"
+        "**/cspell.json"
+        ".config/cspell.json"
         "CHANGELOG.md"
         # keep-sorted end
       ];
