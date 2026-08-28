@@ -4,1008 +4,1030 @@ All notable changes to this project will be documented in this file. See [conven
 
 ---
 
-## [0.37.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.36.0..v0.37.0) - 2026-08-26
+## [1.0.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.37.0..v1.0.0) - 2026-08-28
 
 ### Features
 
-- update formatter config - ([7132372](https://github.com/MRDGH2821/copier-mr-minimal/commit/7132372065c9750a5bf71ad508557712a550de4e)) - MRDGH2821
-
-### Style
-
-- format files - ([80c25b9](https://github.com/MRDGH2821/copier-mr-minimal/commit/80c25b9ecf71ffaa0f23d2bda89c9698df20555f)) - MRDGH2821
-
----
-
-## [0.36.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.35.0..v0.36.0) - 2026-08-21
-
-### Documentation
-
-- require prompter name in AI work logs - ([26704ac](https://github.com/MRDGH2821/copier-mr-minimal/commit/26704acc1597b6eba615239d36d95bfa968a8e43)) - MRDGH2821
-
-### Features
-
-- sync AGENTS, linting, apm, and GitLab CI with source learnings - ([f30f7f0](https://github.com/MRDGH2821/copier-mr-minimal/commit/f30f7f0f419e1cb4c2570367db1df80dd81b1678)) - MRDGH2821
+- [**breaking**]update repo url - ([e59e3b6](https://github.com/MRDGH2821/copier-mr-nix/commit/e59e3b65885cfdc5898cbfd0063af454850df887)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(nix)** drop GitLab binary cache from the template - ([2f51155](https://github.com/MRDGH2821/copier-mr-minimal/commit/2f511559a2d25c92c611ee73995744d5cafeb235)) - MRDGH2821
-
----
-
-## [0.35.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.34.1..v0.35.0) - 2026-08-21
-
-### Miscellaneous Chores
-
-- update watch dir & conditional steps - ([af5817c](https://github.com/MRDGH2821/copier-mr-minimal/commit/af5817c7351000d60fda2a69dec7414ac2f8cd1f)) - MRDGH2821
+- update apm.lock.yaml - ([350f847](https://github.com/MRDGH2821/copier-mr-nix/commit/350f847f0886e1addf612087fb8c37216d27330a)) - MRDGH2821
+- fix formatting problems - ([71f900d](https://github.com/MRDGH2821/copier-mr-nix/commit/71f900d8fc4341188d6479ef06781be54b504ec8)) - MRDGH2821
+- update skill version - ([1917e06](https://github.com/MRDGH2821/copier-mr-nix/commit/1917e06c7e20f36be7ade6454aa9646ee21b78ab)) - MRDGH2821
 
 ### Refactoring
 
-- **(nix)** align host and template with blueprint module patterns - ([2388a24](https://github.com/MRDGH2821/copier-mr-minimal/commit/2388a2429bc7a220d556cf9c84e856633c3d2e7c)) - MRDGH2821
-- simplify syntax - ([3534ec2](https://github.com/MRDGH2821/copier-mr-minimal/commit/3534ec2d9f6790035111a67bbc643b814a38057f)) - MRDGH2821
-
----
-
-## [0.34.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.34.0..v0.34.1) - 2026-08-11
-
-### Bug Fixes
-
-- **(copier)** install skills on update - ([c361560](https://github.com/MRDGH2821/copier-mr-minimal/commit/c361560ae21975bc6515e4444986cf92c224c482)) - MRDGH2821
-- **(nix)** add fallback for lib - ([0edac59](https://github.com/MRDGH2821/copier-mr-minimal/commit/0edac59b664082c166970b6078790dc23eeea0ba)) - MRDGH2821
-
-### Miscellaneous Chores
-
-- **(cspell)** add words in template - ([5466e86](https://github.com/MRDGH2821/copier-mr-minimal/commit/5466e86576a721195c3582039ebcc6e2644daa04)) - MRDGH2821
-
----
-
-## [0.34.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.33.0..v0.34.0) - 2026-08-07
-
-### Bug Fixes
-
-- fix file names - ([a52b2d3](https://github.com/MRDGH2821/copier-mr-minimal/commit/a52b2d33590997d616d00aa1b13b43a14884fb61)) - MRDGH2821
-
-### Features
-
-- add ls-lint hook - ([bc0d82e](https://github.com/MRDGH2821/copier-mr-minimal/commit/bc0d82ef961219c6db7ab75ee9baad2a14663ff7)) - MRDGH2821
-- add ls-lint hook in template - ([a30282b](https://github.com/MRDGH2821/copier-mr-minimal/commit/a30282b3d70651a997cfcd21d19edba343417f86)) - MRDGH2821
-
----
-
-## [0.33.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.32.0..v0.33.0) - 2026-08-04
-
-### Features
-
-- add smt formatter - ([a6031f1](https://github.com/MRDGH2821/copier-mr-minimal/commit/a6031f15e170339db5cfbb1ea73c8bc70562209f)) - MRDGH2821
-
----
-
-## [0.32.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.31.0..v0.32.0) - 2026-08-03
-
-### Bug Fixes
-
-- **(cspell)** fix command args - ([8d6564a](https://github.com/MRDGH2821/copier-mr-minimal/commit/8d6564a501ef362faf0a27ee4ffeb814d9ac0d4d)) - MRDGH2821
-
-### Features
-
-- **(treefmt)** fully move into treefmt.nix - ([7faead7](https://github.com/MRDGH2821/copier-mr-minimal/commit/7faead73b32e1434c19b2403b3ff93d7dad10b8f)) - MRDGH2821
-
----
-
-## [0.31.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.30.0..v0.31.0) - 2026-07-26
-
-### Features
-
-- remove llm packages - ([28fde06](https://github.com/MRDGH2821/copier-mr-minimal/commit/28fde065227827137266808a0b1cfb20110dd9f6)) - MRDGH2821
-
----
-
-## [0.30.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.29.1..v0.30.0) - 2026-07-26
-
-### Features
-
-- **(treefmt)** enable formatters - ([f24dd00](https://github.com/MRDGH2821/copier-mr-minimal/commit/f24dd00096b0cbf6014590f55109cf25031eeac6)) - MRDGH2821
-- **(treefmt)** enable formatters in template - ([6631c03](https://github.com/MRDGH2821/copier-mr-minimal/commit/6631c031ce964e7c2496ade336d2565fb374ae01)) - MRDGH2821
-
-### Miscellaneous Chores
-
-- **(cspell)** update word list in template - ([783897c](https://github.com/MRDGH2821/copier-mr-minimal/commit/783897c1398ff4c3b70c86ad81d8d31eae86c844)) - MRDGH2821
-
----
-
-## [0.29.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.29.0..v0.29.1) - 2026-07-24
-
-### Bug Fixes
-
-- update target list - ([9c2cef0](https://github.com/MRDGH2821/copier-mr-minimal/commit/9c2cef030ac335ea9f7e4db6e1c7b877e9e2fba7)) - MRDGH2821
-
-### Miscellaneous Chores
-
-- update lock file - ([a4d52ee](https://github.com/MRDGH2821/copier-mr-minimal/commit/a4d52ee943d3661a754931b9f5f039884ee60657)) - MRDGH2821
-
----
-
-## [0.29.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.28.0..v0.29.0) - 2026-07-24
-
-### Bug Fixes
-
-- **(jscpd)** fix paths - ([7bc0dbd](https://github.com/MRDGH2821/copier-mr-minimal/commit/7bc0dbd1e9913740d18894a54fab630f1d8765c7)) - MRDGH2821
-- **(nix)** use stdenv.hostPlatform.system instead of deprecated pkgs.system - ([8e29023](https://github.com/MRDGH2821/copier-mr-minimal/commit/8e2902358cec3168af3a6a0558b9805608a408bc)) - MRDGH2821
-- **(nix)** resolve nix flake check evaluation and hook errors - ([1791b06](https://github.com/MRDGH2821/copier-mr-minimal/commit/1791b069b7fb4fb00d4bd510fdc6cb98109b4350)) - MRDGH2821
-- set versions to 0.0.0 - ([db20656](https://github.com/MRDGH2821/copier-mr-minimal/commit/db20656f16fae4f56274782e4a52c3b7baf90f56)) - MRDGH2821
-- for formatting command - ([e5a43df](https://github.com/MRDGH2821/copier-mr-minimal/commit/e5a43df8b63420203f7ec571ae0f1ae7cc206902)) - MRDGH2821
-
-### Documentation
-
-- **(nix)** document stdenv.hostPlatform.system evaluation warning fix - ([be6210a](https://github.com/MRDGH2821/copier-mr-minimal/commit/be6210a1ad9b9ed84545784ab35f67becc674096)) - MRDGH2821
-- add nix-devshell-redesign doc - ([becc32d](https://github.com/MRDGH2821/copier-mr-minimal/commit/becc32d55be0f8d92edb1bc413a7eebd954ed7d4)) - MRDGH2821
-- add plan for redesign - ([1029e61](https://github.com/MRDGH2821/copier-mr-minimal/commit/1029e61878b2d55f58765206db05edd3f1c97569)) - MRDGH2821
-- remove path ref - ([1ab29b5](https://github.com/MRDGH2821/copier-mr-minimal/commit/1ab29b5c274843ed91d95d1a0297611b61b97743)) - MRDGH2821
-
-### Features
-
-- **(cocogitto)** bump apm.yml version in pre bump hooks - ([00b4e88](https://github.com/MRDGH2821/copier-mr-minimal/commit/00b4e88d12f95674cae4872d49e900c219d0c331)) - MRDGH2821
-- **(nix)** redesign devshell with prek, mcp, and agent skills - ([75d70d5](https://github.com/MRDGH2821/copier-mr-minimal/commit/75d70d55266e98833c0caee1b56ee93828eb5673)) - MRDGH2821
-- **(nix)** add formatter and formatting check for blueprint - ([446d65c](https://github.com/MRDGH2821/copier-mr-minimal/commit/446d65c3556a7eb3b0649c8630f74de1778cf736)) - MRDGH2821
-- **(nix)** add pre-commit-check module for blueprint - ([dcdf207](https://github.com/MRDGH2821/copier-mr-minimal/commit/dcdf207928412d09829a034ce5ac760dee62db8a)) - MRDGH2821
-- **(nix)** add mcp and skills modules for blueprint - ([6382e04](https://github.com/MRDGH2821/copier-mr-minimal/commit/6382e04963f1e3c8a33eb98b8ba92ffd9413982b)) - MRDGH2821
-- **(nix)** add formatting check for blueprint from nix/formatter.nix - ([89d1281](https://github.com/MRDGH2821/copier-mr-minimal/commit/89d12818dc6782c9c054e7e31ea56d8a7e54627e)) - MRDGH2821
-- remove plugins - ([ca3a892](https://github.com/MRDGH2821/copier-mr-minimal/commit/ca3a892646f3f6bfbf5b82b4cf9ca750f3506ae5)) - MRDGH2821
-- add pedantix - ([7f93558](https://github.com/MRDGH2821/copier-mr-minimal/commit/7f93558650beaf26f7ab29f67b4b90b5133d4335)) - MRDGH2821
-- redesign layout - ([ba525b3](https://github.com/MRDGH2821/copier-mr-minimal/commit/ba525b384966574aedd2574c30a85465b1ce8050)) - MRDGH2821
-- add new skill - ([bb3c90e](https://github.com/MRDGH2821/copier-mr-minimal/commit/bb3c90e2902e77fd340f21869889f8fec096c641)) - MRDGH2821
-- always use flakes - ([de7e873](https://github.com/MRDGH2821/copier-mr-minimal/commit/de7e87342f2f7ca072a85a6a1bdac03ff7e61533)) - MRDGH2821
-
-### Miscellaneous Chores
-
-- **(cspell)** add words - ([66d4e56](https://github.com/MRDGH2821/copier-mr-minimal/commit/66d4e56f5f88cb1b983ba2c7c688d460c8e88669)) - MRDGH2821
-- **(cspell)** add words - ([a69117e](https://github.com/MRDGH2821/copier-mr-minimal/commit/a69117e7828a01fcef0cf18501071becba507788)) - MRDGH2821
-- **(cspell)** update word list - ([189f7c8](https://github.com/MRDGH2821/copier-mr-minimal/commit/189f7c8d98e5c33ce090e5c16aa27d2a4c053b5e)) - MRDGH2821
-- **(cspell)** add words - ([040df59](https://github.com/MRDGH2821/copier-mr-minimal/commit/040df59bf606007784f4be9226f5b337e819356d)) - MRDGH2821
-- **(nix)** remove unneeded packages - ([3c7bb0d](https://github.com/MRDGH2821/copier-mr-minimal/commit/3c7bb0da0333dc7eb6fda5e526423e9d12d27a3a)) - MRDGH2821
-- **(nix)** add specs, plan, and update flake.lock for blueprint integration - ([373c9e8](https://github.com/MRDGH2821/copier-mr-minimal/commit/373c9e8310f041289f3ef3fc5237e5438cae1b4b)) - MRDGH2821
-- **(pre-commit)** update hooks - ([540361f](https://github.com/MRDGH2821/copier-mr-minimal/commit/540361fc1dc9005414899b190224b357204c39d0)) - MRDGH2821
-- **(treefmt)** add priority for yamllint - ([c83464b](https://github.com/MRDGH2821/copier-mr-minimal/commit/c83464b724bae4f3c1650e1ab325491731b285f6)) - MRDGH2821
-- update apm.lock - ([fc73d3c](https://github.com/MRDGH2821/copier-mr-minimal/commit/fc73d3cdfe8776057ae9714bc7d7d8e38b90181d)) - MRDGH2821
-- integrate tools - ([cfad6b0](https://github.com/MRDGH2821/copier-mr-minimal/commit/cfad6b017a4554d5618980da74cd870b8daed068)) - MRDGH2821
-- exclude cspell file - ([e54c6d8](https://github.com/MRDGH2821/copier-mr-minimal/commit/e54c6d895159de37332a4aaeadf040f5ba29b9e6)) - MRDGH2821
-- remove claude & vscode mcp config - ([16444db](https://github.com/MRDGH2821/copier-mr-minimal/commit/16444dbc866696784d23dd46039aa8f747c15294)) - MRDGH2821
-- add `agents` as skill target - ([502bf95](https://github.com/MRDGH2821/copier-mr-minimal/commit/502bf95461da47b3a8cf5455729958330206a41b)) - MRDGH2821
-- remove plugins - ([9906c5b](https://github.com/MRDGH2821/copier-mr-minimal/commit/9906c5b5d40505724be7712ca3b7163be1c37190)) - MRDGH2821
-- add inputs - ([312f2a4](https://github.com/MRDGH2821/copier-mr-minimal/commit/312f2a4a81639c264a01037c51aeb50808c84556)) - MRDGH2821
-- remove declarative mcp & skill configs - ([e947b54](https://github.com/MRDGH2821/copier-mr-minimal/commit/e947b54cc700ed2fc6f63a09e83f691513731fa3)) - MRDGH2821
-- update apm lock file - ([862a978](https://github.com/MRDGH2821/copier-mr-minimal/commit/862a978b1816a8559fee50ae89899216d5895ca0)) - MRDGH2821
-- add mcp & targets - ([ca4dc80](https://github.com/MRDGH2821/copier-mr-minimal/commit/ca4dc80a2977a84412720713925c7305f0002434)) - MRDGH2821
-- remove apm install command - ([2c0c25a](https://github.com/MRDGH2821/copier-mr-minimal/commit/2c0c25a83515c52b49a775ad10fef448ec8ad109)) - MRDGH2821
-- update lock files - ([8c0c9b3](https://github.com/MRDGH2821/copier-mr-minimal/commit/8c0c9b3d5d11a95feffd5ff714ae83d9fbca82fe)) - MRDGH2821
-- add pedantix in treefmt - ([f5601e0](https://github.com/MRDGH2821/copier-mr-minimal/commit/f5601e0c4871a2c3a880d1a1fa528fc0be73d124)) - MRDGH2821
-- remove lycheeignore - ([3c2b676](https://github.com/MRDGH2821/copier-mr-minimal/commit/3c2b67646f24785211b399bf7a4bbb5635092487)) - MRDGH2821
-- merge branch 'feat/nix-devshell-redesign' - ([e5c3c72](https://github.com/MRDGH2821/copier-mr-minimal/commit/e5c3c72666646356e5d80d50d89ee2f9690912a5)) - MRDGH2821
-- update lock files - ([10b4f72](https://github.com/MRDGH2821/copier-mr-minimal/commit/10b4f72ab737a1c827cada9caa176c921e85c2d1)) - MRDGH2821
-
-### Refactoring
-
-- **(nix)** integrate numtide/blueprint and split devshell - ([47bc7b6](https://github.com/MRDGH2821/copier-mr-minimal/commit/47bc7b6ed1ee720bcd0fc3739d5e40400594ce1d)) - MRDGH2821
-- **(treefmt)** use pkgs.lib.getExe - ([0cfa2d4](https://github.com/MRDGH2821/copier-mr-minimal/commit/0cfa2d445148cc56680111fd83ee906b946182e9)) - MRDGH2821
-- port all settings into treefmt.nix - ([f5c0583](https://github.com/MRDGH2821/copier-mr-minimal/commit/f5c058309deefc09f5d28afec91de838b3373dff)) - MRDGH2821
-- move treefmt config - ([c6da9be](https://github.com/MRDGH2821/copier-mr-minimal/commit/c6da9be9de755bd46fd03691975a574454ca9f6d)) - MRDGH2821
-- split treefmt config - ([de5cbe7](https://github.com/MRDGH2821/copier-mr-minimal/commit/de5cbe79560d91a4ca566838164d879ea979c300)) - MRDGH2821
-- simplify flakes - ([17a770c](https://github.com/MRDGH2821/copier-mr-minimal/commit/17a770c09a0b6a9f7b0b82881cd59167acb980a6)) - MRDGH2821
-
-### Style
-
-- format files - ([9620643](https://github.com/MRDGH2821/copier-mr-minimal/commit/962064307e12814ebc66075fa2879101a2251750)) - MRDGH2821
-- sort lines - ([a4de04b](https://github.com/MRDGH2821/copier-mr-minimal/commit/a4de04bb6d4dabe593c86c7444722f6e0d0bdf1b)) - MRDGH2821
-- format files - ([f666820](https://github.com/MRDGH2821/copier-mr-minimal/commit/f6668200d1e181e33603330c21b52db69b12bce4)) - MRDGH2821
-- format files - ([2a8e9fa](https://github.com/MRDGH2821/copier-mr-minimal/commit/2a8e9fa4556d45fc2215fe547916c465584e0ad3)) - MRDGH2821
-- fix linter errors - ([b21bf41](https://github.com/MRDGH2821/copier-mr-minimal/commit/b21bf41bcdf6b0e63392bda894c4d4955d0d9f22)) - MRDGH2821
+- consolidate cliff/cspell/rumdl configs into .config/ and add cocogitto CI check - ([ee00b78](https://github.com/MRDGH2821/copier-mr-nix/commit/ee00b78671ed7ef9fb7af3d1986c0d64b0087002)) - MRDGH2821
 
 ### Ci
 
-- update action versions - ([d175747](https://github.com/MRDGH2821/copier-mr-minimal/commit/d175747cebc423024e18478c2734cbc711a4e5ab)) - MRDGH2821
+- **(cocogitto)** bump cocogitto-action to v4.2.0 for cocogitto 7.0.0 - ([a1cc8ed](https://github.com/MRDGH2821/copier-mr-nix/commit/a1cc8edaae23bf41b75b3e398161b2a5070f241d)) - MRDGH2821
 
 ---
 
-## [0.28.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.27.1..v0.28.0) - 2026-06-30
-
-### Bug Fixes
-
-- fix syntax - ([3371b12](https://github.com/MRDGH2821/copier-mr-minimal/commit/3371b1261b48fab5c48ec7fe48623a5939a4f0f5)) - MRDGH2821
-- fix file name - ([7cb8ab5](https://github.com/MRDGH2821/copier-mr-minimal/commit/7cb8ab57bb9bf2ffd68d118e3d3cc46c29c8a515)) - MRDGH2821
+## [0.37.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.36.0..v0.37.0) - 2026-08-26
 
 ### Features
 
-- migrate to apm for skills management - ([029c9b1](https://github.com/MRDGH2821/copier-mr-minimal/commit/029c9b1a63a87810537418bb1e72cbda4a6aa69c)) - MRDGH2821
-- add ls-lint config - ([184a6d4](https://github.com/MRDGH2821/copier-mr-minimal/commit/184a6d423721c06dc0fcd447386eee20265b3793)) - MRDGH2821
+- update formatter config - ([7132372](https://github.com/MRDGH2821/copier-mr-nix/commit/7132372065c9750a5bf71ad508557712a550de4e)) - MRDGH2821
 
-### Miscellaneous Chores
+### Style
 
-- use licencify to add licence - ([e0b70b9](https://github.com/MRDGH2821/copier-mr-minimal/commit/e0b70b99de7244d6cd556878d3af1056c6ace13d)) - MRDGH2821
-- add ls lint config - ([70df2b5](https://github.com/MRDGH2821/copier-mr-minimal/commit/70df2b54be8c331332f0ac88fe9381217ec4ef28)) - MRDGH2821
-- remove licence text - ([95f930d](https://github.com/MRDGH2821/copier-mr-minimal/commit/95f930d77a977b4c2f425f2bb093fd4e38d385cf)) - MRDGH2821
+- format files - ([80c25b9](https://github.com/MRDGH2821/copier-mr-nix/commit/80c25b9ecf71ffaa0f23d2bda89c9698df20555f)) - MRDGH2821
 
 ---
 
-## [0.27.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.27.0..v0.27.1) - 2026-06-18
+## [0.36.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.35.0..v0.36.0) - 2026-08-21
 
-### Bug Fixes
+### Documentation
 
-- **(copier)** fix syntax - ([aa061ba](https://github.com/MRDGH2821/copier-mr-minimal/commit/aa061ba588b4b13531124f40d1897c93f882c29e)) - MRDGH2821
-
----
-
-## [0.27.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.26.0..v0.27.0) - 2026-06-18
-
-### Bug Fixes
-
-- add skills only on copy - ([d6f32d7](https://github.com/MRDGH2821/copier-mr-minimal/commit/d6f32d7fb24f3d9fd579fe0824ab54452f0d7d4a)) - MRDGH2821
+- require prompter name in AI work logs - ([26704ac](https://github.com/MRDGH2821/copier-mr-nix/commit/26704acc1597b6eba615239d36d95bfa968a8e43)) - MRDGH2821
 
 ### Features
 
-- add licence - ([5ade603](https://github.com/MRDGH2821/copier-mr-minimal/commit/5ade60333a45075cd018971775972e8c5c17d3e0)) - MRDGH2821
+- sync AGENTS, linting, apm, and GitLab CI with source learnings - ([f30f7f0](https://github.com/MRDGH2821/copier-mr-nix/commit/f30f7f0f419e1cb4c2570367db1df80dd81b1678)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- update pre-commit hooks - ([92ec254](https://github.com/MRDGH2821/copier-mr-minimal/commit/92ec25472e1e194f453a5410c8e85b1905e44f8e)) - MRDGH2821
-- add licence - ([32c03cb](https://github.com/MRDGH2821/copier-mr-minimal/commit/32c03cb0ad3475373f2f742ee107cb254c7a69a8)) - MRDGH2821
+- **(nix)** drop GitLab binary cache from the template - ([2f51155](https://github.com/MRDGH2821/copier-mr-nix/commit/2f511559a2d25c92c611ee73995744d5cafeb235)) - MRDGH2821
+
+---
+
+## [0.35.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.34.1..v0.35.0) - 2026-08-21
+
+### Miscellaneous Chores
+
+- update watch dir & conditional steps - ([af5817c](https://github.com/MRDGH2821/copier-mr-nix/commit/af5817c7351000d60fda2a69dec7414ac2f8cd1f)) - MRDGH2821
+
+### Refactoring
+
+- **(nix)** align host and template with blueprint module patterns - ([2388a24](https://github.com/MRDGH2821/copier-mr-nix/commit/2388a2429bc7a220d556cf9c84e856633c3d2e7c)) - MRDGH2821
+- simplify syntax - ([3534ec2](https://github.com/MRDGH2821/copier-mr-nix/commit/3534ec2d9f6790035111a67bbc643b814a38057f)) - MRDGH2821
+
+---
+
+## [0.34.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.34.0..v0.34.1) - 2026-08-11
+
+### Bug Fixes
+
+- **(copier)** install skills on update - ([c361560](https://github.com/MRDGH2821/copier-mr-nix/commit/c361560ae21975bc6515e4444986cf92c224c482)) - MRDGH2821
+- **(nix)** add fallback for lib - ([0edac59](https://github.com/MRDGH2821/copier-mr-nix/commit/0edac59b664082c166970b6078790dc23eeea0ba)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- **(cspell)** add words in template - ([5466e86](https://github.com/MRDGH2821/copier-mr-nix/commit/5466e86576a721195c3582039ebcc6e2644daa04)) - MRDGH2821
+
+---
+
+## [0.34.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.33.0..v0.34.0) - 2026-08-07
+
+### Bug Fixes
+
+- fix file names - ([a52b2d3](https://github.com/MRDGH2821/copier-mr-nix/commit/a52b2d33590997d616d00aa1b13b43a14884fb61)) - MRDGH2821
+
+### Features
+
+- add ls-lint hook - ([bc0d82e](https://github.com/MRDGH2821/copier-mr-nix/commit/bc0d82ef961219c6db7ab75ee9baad2a14663ff7)) - MRDGH2821
+- add ls-lint hook in template - ([a30282b](https://github.com/MRDGH2821/copier-mr-nix/commit/a30282b3d70651a997cfcd21d19edba343417f86)) - MRDGH2821
+
+---
+
+## [0.33.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.32.0..v0.33.0) - 2026-08-04
+
+### Features
+
+- add smt formatter - ([a6031f1](https://github.com/MRDGH2821/copier-mr-nix/commit/a6031f15e170339db5cfbb1ea73c8bc70562209f)) - MRDGH2821
+
+---
+
+## [0.32.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.31.0..v0.32.0) - 2026-08-03
+
+### Bug Fixes
+
+- **(cspell)** fix command args - ([8d6564a](https://github.com/MRDGH2821/copier-mr-nix/commit/8d6564a501ef362faf0a27ee4ffeb814d9ac0d4d)) - MRDGH2821
+
+### Features
+
+- **(treefmt)** fully move into treefmt.nix - ([7faead7](https://github.com/MRDGH2821/copier-mr-nix/commit/7faead73b32e1434c19b2403b3ff93d7dad10b8f)) - MRDGH2821
+
+---
+
+## [0.31.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.30.0..v0.31.0) - 2026-07-26
+
+### Features
+
+- remove llm packages - ([28fde06](https://github.com/MRDGH2821/copier-mr-nix/commit/28fde065227827137266808a0b1cfb20110dd9f6)) - MRDGH2821
+
+---
+
+## [0.30.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.29.1..v0.30.0) - 2026-07-26
+
+### Features
+
+- **(treefmt)** enable formatters - ([f24dd00](https://github.com/MRDGH2821/copier-mr-nix/commit/f24dd00096b0cbf6014590f55109cf25031eeac6)) - MRDGH2821
+- **(treefmt)** enable formatters in template - ([6631c03](https://github.com/MRDGH2821/copier-mr-nix/commit/6631c031ce964e7c2496ade336d2565fb374ae01)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- **(cspell)** update word list in template - ([783897c](https://github.com/MRDGH2821/copier-mr-nix/commit/783897c1398ff4c3b70c86ad81d8d31eae86c844)) - MRDGH2821
+
+---
+
+## [0.29.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.29.0..v0.29.1) - 2026-07-24
+
+### Bug Fixes
+
+- update target list - ([9c2cef0](https://github.com/MRDGH2821/copier-mr-nix/commit/9c2cef030ac335ea9f7e4db6e1c7b877e9e2fba7)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- update lock file - ([a4d52ee](https://github.com/MRDGH2821/copier-mr-nix/commit/a4d52ee943d3661a754931b9f5f039884ee60657)) - MRDGH2821
+
+---
+
+## [0.29.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.28.0..v0.29.0) - 2026-07-24
+
+### Bug Fixes
+
+- **(jscpd)** fix paths - ([7bc0dbd](https://github.com/MRDGH2821/copier-mr-nix/commit/7bc0dbd1e9913740d18894a54fab630f1d8765c7)) - MRDGH2821
+- **(nix)** use stdenv.hostPlatform.system instead of deprecated pkgs.system - ([8e29023](https://github.com/MRDGH2821/copier-mr-nix/commit/8e2902358cec3168af3a6a0558b9805608a408bc)) - MRDGH2821
+- **(nix)** resolve nix flake check evaluation and hook errors - ([1791b06](https://github.com/MRDGH2821/copier-mr-nix/commit/1791b069b7fb4fb00d4bd510fdc6cb98109b4350)) - MRDGH2821
+- set versions to 0.0.0 - ([db20656](https://github.com/MRDGH2821/copier-mr-nix/commit/db20656f16fae4f56274782e4a52c3b7baf90f56)) - MRDGH2821
+- for formatting command - ([e5a43df](https://github.com/MRDGH2821/copier-mr-nix/commit/e5a43df8b63420203f7ec571ae0f1ae7cc206902)) - MRDGH2821
+
+### Documentation
+
+- **(nix)** document stdenv.hostPlatform.system evaluation warning fix - ([be6210a](https://github.com/MRDGH2821/copier-mr-nix/commit/be6210a1ad9b9ed84545784ab35f67becc674096)) - MRDGH2821
+- add nix-devshell-redesign doc - ([becc32d](https://github.com/MRDGH2821/copier-mr-nix/commit/becc32d55be0f8d92edb1bc413a7eebd954ed7d4)) - MRDGH2821
+- add plan for redesign - ([1029e61](https://github.com/MRDGH2821/copier-mr-nix/commit/1029e61878b2d55f58765206db05edd3f1c97569)) - MRDGH2821
+- remove path ref - ([1ab29b5](https://github.com/MRDGH2821/copier-mr-nix/commit/1ab29b5c274843ed91d95d1a0297611b61b97743)) - MRDGH2821
+
+### Features
+
+- **(cocogitto)** bump apm.yml version in pre bump hooks - ([00b4e88](https://github.com/MRDGH2821/copier-mr-nix/commit/00b4e88d12f95674cae4872d49e900c219d0c331)) - MRDGH2821
+- **(nix)** redesign devshell with prek, mcp, and agent skills - ([75d70d5](https://github.com/MRDGH2821/copier-mr-nix/commit/75d70d55266e98833c0caee1b56ee93828eb5673)) - MRDGH2821
+- **(nix)** add formatter and formatting check for blueprint - ([446d65c](https://github.com/MRDGH2821/copier-mr-nix/commit/446d65c3556a7eb3b0649c8630f74de1778cf736)) - MRDGH2821
+- **(nix)** add pre-commit-check module for blueprint - ([dcdf207](https://github.com/MRDGH2821/copier-mr-nix/commit/dcdf207928412d09829a034ce5ac760dee62db8a)) - MRDGH2821
+- **(nix)** add mcp and skills modules for blueprint - ([6382e04](https://github.com/MRDGH2821/copier-mr-nix/commit/6382e04963f1e3c8a33eb98b8ba92ffd9413982b)) - MRDGH2821
+- **(nix)** add formatting check for blueprint from nix/formatter.nix - ([89d1281](https://github.com/MRDGH2821/copier-mr-nix/commit/89d12818dc6782c9c054e7e31ea56d8a7e54627e)) - MRDGH2821
+- remove plugins - ([ca3a892](https://github.com/MRDGH2821/copier-mr-nix/commit/ca3a892646f3f6bfbf5b82b4cf9ca750f3506ae5)) - MRDGH2821
+- add pedantix - ([7f93558](https://github.com/MRDGH2821/copier-mr-nix/commit/7f93558650beaf26f7ab29f67b4b90b5133d4335)) - MRDGH2821
+- redesign layout - ([ba525b3](https://github.com/MRDGH2821/copier-mr-nix/commit/ba525b384966574aedd2574c30a85465b1ce8050)) - MRDGH2821
+- add new skill - ([bb3c90e](https://github.com/MRDGH2821/copier-mr-nix/commit/bb3c90e2902e77fd340f21869889f8fec096c641)) - MRDGH2821
+- always use flakes - ([de7e873](https://github.com/MRDGH2821/copier-mr-nix/commit/de7e87342f2f7ca072a85a6a1bdac03ff7e61533)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- **(cspell)** add words - ([66d4e56](https://github.com/MRDGH2821/copier-mr-nix/commit/66d4e56f5f88cb1b983ba2c7c688d460c8e88669)) - MRDGH2821
+- **(cspell)** add words - ([a69117e](https://github.com/MRDGH2821/copier-mr-nix/commit/a69117e7828a01fcef0cf18501071becba507788)) - MRDGH2821
+- **(cspell)** update word list - ([189f7c8](https://github.com/MRDGH2821/copier-mr-nix/commit/189f7c8d98e5c33ce090e5c16aa27d2a4c053b5e)) - MRDGH2821
+- **(cspell)** add words - ([040df59](https://github.com/MRDGH2821/copier-mr-nix/commit/040df59bf606007784f4be9226f5b337e819356d)) - MRDGH2821
+- **(nix)** remove unneeded packages - ([3c7bb0d](https://github.com/MRDGH2821/copier-mr-nix/commit/3c7bb0da0333dc7eb6fda5e526423e9d12d27a3a)) - MRDGH2821
+- **(nix)** add specs, plan, and update flake.lock for blueprint integration - ([373c9e8](https://github.com/MRDGH2821/copier-mr-nix/commit/373c9e8310f041289f3ef3fc5237e5438cae1b4b)) - MRDGH2821
+- **(pre-commit)** update hooks - ([540361f](https://github.com/MRDGH2821/copier-mr-nix/commit/540361fc1dc9005414899b190224b357204c39d0)) - MRDGH2821
+- **(treefmt)** add priority for yamllint - ([c83464b](https://github.com/MRDGH2821/copier-mr-nix/commit/c83464b724bae4f3c1650e1ab325491731b285f6)) - MRDGH2821
+- update apm.lock - ([fc73d3c](https://github.com/MRDGH2821/copier-mr-nix/commit/fc73d3cdfe8776057ae9714bc7d7d8e38b90181d)) - MRDGH2821
+- integrate tools - ([cfad6b0](https://github.com/MRDGH2821/copier-mr-nix/commit/cfad6b017a4554d5618980da74cd870b8daed068)) - MRDGH2821
+- exclude cspell file - ([e54c6d8](https://github.com/MRDGH2821/copier-mr-nix/commit/e54c6d895159de37332a4aaeadf040f5ba29b9e6)) - MRDGH2821
+- remove claude & vscode mcp config - ([16444db](https://github.com/MRDGH2821/copier-mr-nix/commit/16444dbc866696784d23dd46039aa8f747c15294)) - MRDGH2821
+- add `agents` as skill target - ([502bf95](https://github.com/MRDGH2821/copier-mr-nix/commit/502bf95461da47b3a8cf5455729958330206a41b)) - MRDGH2821
+- remove plugins - ([9906c5b](https://github.com/MRDGH2821/copier-mr-nix/commit/9906c5b5d40505724be7712ca3b7163be1c37190)) - MRDGH2821
+- add inputs - ([312f2a4](https://github.com/MRDGH2821/copier-mr-nix/commit/312f2a4a81639c264a01037c51aeb50808c84556)) - MRDGH2821
+- remove declarative mcp & skill configs - ([e947b54](https://github.com/MRDGH2821/copier-mr-nix/commit/e947b54cc700ed2fc6f63a09e83f691513731fa3)) - MRDGH2821
+- update apm lock file - ([862a978](https://github.com/MRDGH2821/copier-mr-nix/commit/862a978b1816a8559fee50ae89899216d5895ca0)) - MRDGH2821
+- add mcp & targets - ([ca4dc80](https://github.com/MRDGH2821/copier-mr-nix/commit/ca4dc80a2977a84412720713925c7305f0002434)) - MRDGH2821
+- remove apm install command - ([2c0c25a](https://github.com/MRDGH2821/copier-mr-nix/commit/2c0c25a83515c52b49a775ad10fef448ec8ad109)) - MRDGH2821
+- update lock files - ([8c0c9b3](https://github.com/MRDGH2821/copier-mr-nix/commit/8c0c9b3d5d11a95feffd5ff714ae83d9fbca82fe)) - MRDGH2821
+- add pedantix in treefmt - ([f5601e0](https://github.com/MRDGH2821/copier-mr-nix/commit/f5601e0c4871a2c3a880d1a1fa528fc0be73d124)) - MRDGH2821
+- remove lycheeignore - ([3c2b676](https://github.com/MRDGH2821/copier-mr-nix/commit/3c2b67646f24785211b399bf7a4bbb5635092487)) - MRDGH2821
+- merge branch 'feat/nix-devshell-redesign' - ([e5c3c72](https://github.com/MRDGH2821/copier-mr-nix/commit/e5c3c72666646356e5d80d50d89ee2f9690912a5)) - MRDGH2821
+- update lock files - ([10b4f72](https://github.com/MRDGH2821/copier-mr-nix/commit/10b4f72ab737a1c827cada9caa176c921e85c2d1)) - MRDGH2821
+
+### Refactoring
+
+- **(nix)** integrate numtide/blueprint and split devshell - ([47bc7b6](https://github.com/MRDGH2821/copier-mr-nix/commit/47bc7b6ed1ee720bcd0fc3739d5e40400594ce1d)) - MRDGH2821
+- **(treefmt)** use pkgs.lib.getExe - ([0cfa2d4](https://github.com/MRDGH2821/copier-mr-nix/commit/0cfa2d445148cc56680111fd83ee906b946182e9)) - MRDGH2821
+- port all settings into treefmt.nix - ([f5c0583](https://github.com/MRDGH2821/copier-mr-nix/commit/f5c058309deefc09f5d28afec91de838b3373dff)) - MRDGH2821
+- move treefmt config - ([c6da9be](https://github.com/MRDGH2821/copier-mr-nix/commit/c6da9be9de755bd46fd03691975a574454ca9f6d)) - MRDGH2821
+- split treefmt config - ([de5cbe7](https://github.com/MRDGH2821/copier-mr-nix/commit/de5cbe79560d91a4ca566838164d879ea979c300)) - MRDGH2821
+- simplify flakes - ([17a770c](https://github.com/MRDGH2821/copier-mr-nix/commit/17a770c09a0b6a9f7b0b82881cd59167acb980a6)) - MRDGH2821
+
+### Style
+
+- format files - ([9620643](https://github.com/MRDGH2821/copier-mr-nix/commit/962064307e12814ebc66075fa2879101a2251750)) - MRDGH2821
+- sort lines - ([a4de04b](https://github.com/MRDGH2821/copier-mr-nix/commit/a4de04bb6d4dabe593c86c7444722f6e0d0bdf1b)) - MRDGH2821
+- format files - ([f666820](https://github.com/MRDGH2821/copier-mr-nix/commit/f6668200d1e181e33603330c21b52db69b12bce4)) - MRDGH2821
+- format files - ([2a8e9fa](https://github.com/MRDGH2821/copier-mr-nix/commit/2a8e9fa4556d45fc2215fe547916c465584e0ad3)) - MRDGH2821
+- fix linter errors - ([b21bf41](https://github.com/MRDGH2821/copier-mr-nix/commit/b21bf41bcdf6b0e63392bda894c4d4955d0d9f22)) - MRDGH2821
+
+### Ci
+
+- update action versions - ([d175747](https://github.com/MRDGH2821/copier-mr-nix/commit/d175747cebc423024e18478c2734cbc711a4e5ab)) - MRDGH2821
+
+---
+
+## [0.28.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.27.1..v0.28.0) - 2026-06-30
+
+### Bug Fixes
+
+- fix syntax - ([3371b12](https://github.com/MRDGH2821/copier-mr-nix/commit/3371b1261b48fab5c48ec7fe48623a5939a4f0f5)) - MRDGH2821
+- fix file name - ([7cb8ab5](https://github.com/MRDGH2821/copier-mr-nix/commit/7cb8ab57bb9bf2ffd68d118e3d3cc46c29c8a515)) - MRDGH2821
+
+### Features
+
+- migrate to apm for skills management - ([029c9b1](https://github.com/MRDGH2821/copier-mr-nix/commit/029c9b1a63a87810537418bb1e72cbda4a6aa69c)) - MRDGH2821
+- add ls-lint config - ([184a6d4](https://github.com/MRDGH2821/copier-mr-nix/commit/184a6d423721c06dc0fcd447386eee20265b3793)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- use licencify to add licence - ([e0b70b9](https://github.com/MRDGH2821/copier-mr-nix/commit/e0b70b99de7244d6cd556878d3af1056c6ace13d)) - MRDGH2821
+- add ls lint config - ([70df2b5](https://github.com/MRDGH2821/copier-mr-nix/commit/70df2b54be8c331332f0ac88fe9381217ec4ef28)) - MRDGH2821
+- remove licence text - ([95f930d](https://github.com/MRDGH2821/copier-mr-nix/commit/95f930d77a977b4c2f425f2bb093fd4e38d385cf)) - MRDGH2821
+
+---
+
+## [0.27.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.27.0..v0.27.1) - 2026-06-18
+
+### Bug Fixes
+
+- **(copier)** fix syntax - ([aa061ba](https://github.com/MRDGH2821/copier-mr-nix/commit/aa061ba588b4b13531124f40d1897c93f882c29e)) - MRDGH2821
+
+---
+
+## [0.27.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.26.0..v0.27.0) - 2026-06-18
+
+### Bug Fixes
+
+- add skills only on copy - ([d6f32d7](https://github.com/MRDGH2821/copier-mr-nix/commit/d6f32d7fb24f3d9fd579fe0824ab54452f0d7d4a)) - MRDGH2821
+
+### Features
+
+- add licence - ([5ade603](https://github.com/MRDGH2821/copier-mr-nix/commit/5ade60333a45075cd018971775972e8c5c17d3e0)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- update pre-commit hooks - ([92ec254](https://github.com/MRDGH2821/copier-mr-nix/commit/92ec25472e1e194f453a5410c8e85b1905e44f8e)) - MRDGH2821
+- add licence - ([32c03cb](https://github.com/MRDGH2821/copier-mr-nix/commit/32c03cb0ad3475373f2f742ee107cb254c7a69a8)) - MRDGH2821
 
 ### Build
 
-- update lock file - ([dc04fb6](https://github.com/MRDGH2821/copier-mr-minimal/commit/dc04fb6b9c82e7b87a90fe4463bf2f2d83d1aa14)) - MRDGH2821
+- update lock file - ([dc04fb6](https://github.com/MRDGH2821/copier-mr-nix/commit/dc04fb6b9c82e7b87a90fe4463bf2f2d83d1aa14)) - MRDGH2821
 
 ---
 
-## [0.26.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.25.2..v0.26.0) - 2026-06-11
+## [0.26.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.25.2..v0.26.0) - 2026-06-11
 
 ### Features
 
-- source local files if available - ([617152e](https://github.com/MRDGH2821/copier-mr-minimal/commit/617152e095bb27cdeaa9c17d5207d418b92cd5ce)) - MRDGH2821
+- source local files if available - ([617152e](https://github.com/MRDGH2821/copier-mr-nix/commit/617152e095bb27cdeaa9c17d5207d418b92cd5ce)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- remove command to execute - ([7bb264f](https://github.com/MRDGH2821/copier-mr-minimal/commit/7bb264fb15c1e7501f5de0f09544542a7bb6825b)) - MRDGH2821
+- remove command to execute - ([7bb264f](https://github.com/MRDGH2821/copier-mr-nix/commit/7bb264fb15c1e7501f5de0f09544542a7bb6825b)) - MRDGH2821
 
 ### Style
 
-- format file - ([5dd96c8](https://github.com/MRDGH2821/copier-mr-minimal/commit/5dd96c84187f965bfd89788af3971c08b735a543)) - MRDGH2821
+- format file - ([5dd96c8](https://github.com/MRDGH2821/copier-mr-nix/commit/5dd96c84187f965bfd89788af3971c08b735a543)) - MRDGH2821
 
 ---
 
-## [0.25.2](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.25.1..v0.25.2) - 2026-06-11
+## [0.25.2](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.25.1..v0.25.2) - 2026-06-11
 
 ### Bug Fixes
 
-- make the name package.json compatible - ([65b422a](https://github.com/MRDGH2821/copier-mr-minimal/commit/65b422af9168a1be74eeed3e1ef4b5559d1b8b46)) - MRDGH2821
+- make the name package.json compatible - ([65b422a](https://github.com/MRDGH2821/copier-mr-nix/commit/65b422af9168a1be74eeed3e1ef4b5559d1b8b46)) - MRDGH2821
 
 ---
 
-## [0.25.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.25.0..v0.25.1) - 2026-06-09
+## [0.25.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.25.0..v0.25.1) - 2026-06-09
 
 ### Bug Fixes
 
-- remove pre commands - ([3dc5f41](https://github.com/MRDGH2821/copier-mr-minimal/commit/3dc5f41d9e9dcfbee63b990b8d10067582e7d5c7)) - MRDGH2821
+- remove pre commands - ([3dc5f41](https://github.com/MRDGH2821/copier-mr-nix/commit/3dc5f41d9e9dcfbee63b990b8d10067582e7d5c7)) - MRDGH2821
 
 ---
 
-## [0.25.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.24.0..v0.25.0) - 2026-06-09
+## [0.25.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.24.0..v0.25.0) - 2026-06-09
 
 ### Features
 
-- **(megalinter)** remove devskim - ([8cbb1cb](https://github.com/MRDGH2821/copier-mr-minimal/commit/8cbb1cbb7966b2a34a0543ea1c9c26500843b0b4)) - MRDGH2821
+- **(megalinter)** remove devskim - ([8cbb1cb](https://github.com/MRDGH2821/copier-mr-nix/commit/8cbb1cbb7966b2a34a0543ea1c9c26500843b0b4)) - MRDGH2821
 
 ---
 
-## [0.24.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.23.1..v0.24.0) - 2026-06-09
+## [0.24.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.23.1..v0.24.0) - 2026-06-09
 
 ### Bug Fixes
 
-- fix template - ([1f7d3d2](https://github.com/MRDGH2821/copier-mr-minimal/commit/1f7d3d2c21732dda558c5c05f283abc7853aa1fe)) - MRDGH2821
-- ignore more globs - ([e19a238](https://github.com/MRDGH2821/copier-mr-minimal/commit/e19a238d4f5fdb259c25338cca3a628ab83665ce)) - MRDGH2821
+- fix template - ([1f7d3d2](https://github.com/MRDGH2821/copier-mr-nix/commit/1f7d3d2c21732dda558c5c05f283abc7853aa1fe)) - MRDGH2821
+- ignore more globs - ([e19a238](https://github.com/MRDGH2821/copier-mr-nix/commit/e19a238d4f5fdb259c25338cca3a628ab83665ce)) - MRDGH2821
 
 ### Features
 
-- bring formatter behaviour closer to shfmt - ([36063e3](https://github.com/MRDGH2821/copier-mr-minimal/commit/36063e3bab1eb752c754dfb49aa56a9865619ae3)) - MRDGH2821
+- bring formatter behaviour closer to shfmt - ([36063e3](https://github.com/MRDGH2821/copier-mr-nix/commit/36063e3bab1eb752c754dfb49aa56a9865619ae3)) - MRDGH2821
 
 ---
 
-## [0.23.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.23.0..v0.23.1) - 2026-06-08
+## [0.23.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.23.0..v0.23.1) - 2026-06-08
 
 ### Bug Fixes
 
-- **(megalinter)** add linter fixes - ([e12eac3](https://github.com/MRDGH2821/copier-mr-minimal/commit/e12eac398c9846fd559fbf8aff4c972cf176d788)) - MRDGH2821
-- **(megalinter)** pin tag versions of actions - ([3ac9ed3](https://github.com/MRDGH2821/copier-mr-minimal/commit/3ac9ed3baca04298ad0a7baf38fb6f6317b520f5)) - MRDGH2821
-- **(megalinter)** change prettier lint mode - ([7d1a0b2](https://github.com/MRDGH2821/copier-mr-minimal/commit/7d1a0b2e406a40a57acbf75280be6ed376c9a0c9)) - MRDGH2821
-- **(megalinter)** use npm i --workspaces=false for prettier pre-commands - ([128a42b](https://github.com/MRDGH2821/copier-mr-minimal/commit/128a42b592e9c25a148b36c4eb2202b22f39396d)) - MRDGH2821
+- **(megalinter)** add linter fixes - ([e12eac3](https://github.com/MRDGH2821/copier-mr-nix/commit/e12eac398c9846fd559fbf8aff4c972cf176d788)) - MRDGH2821
+- **(megalinter)** pin tag versions of actions - ([3ac9ed3](https://github.com/MRDGH2821/copier-mr-nix/commit/3ac9ed3baca04298ad0a7baf38fb6f6317b520f5)) - MRDGH2821
+- **(megalinter)** change prettier lint mode - ([7d1a0b2](https://github.com/MRDGH2821/copier-mr-nix/commit/7d1a0b2e406a40a57acbf75280be6ed376c9a0c9)) - MRDGH2821
+- **(megalinter)** use npm i --workspaces=false for prettier pre-commands - ([128a42b](https://github.com/MRDGH2821/copier-mr-nix/commit/128a42b592e9c25a148b36c4eb2202b22f39396d)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- update lock file - ([0973393](https://github.com/MRDGH2821/copier-mr-minimal/commit/09733933ba77fe2c6e98fa0c55cb8d7d91a68912)) - MRDGH2821
-- ignore paths - ([7bceb73](https://github.com/MRDGH2821/copier-mr-minimal/commit/7bceb73c9f934a64d9be67fe5e0b01aa269b6860)) - MRDGH2821
-- remove redundant workspaces - ([28c1e27](https://github.com/MRDGH2821/copier-mr-minimal/commit/28c1e2720878f3bce6f93db13ccdc753f5dc9154)) - MRDGH2821
+- update lock file - ([0973393](https://github.com/MRDGH2821/copier-mr-nix/commit/09733933ba77fe2c6e98fa0c55cb8d7d91a68912)) - MRDGH2821
+- ignore paths - ([7bceb73](https://github.com/MRDGH2821/copier-mr-nix/commit/7bceb73c9f934a64d9be67fe5e0b01aa269b6860)) - MRDGH2821
+- remove redundant workspaces - ([28c1e27](https://github.com/MRDGH2821/copier-mr-nix/commit/28c1e2720878f3bce6f93db13ccdc753f5dc9154)) - MRDGH2821
 
 ### Refactoring
 
-- convert package.json into jinja template - ([7207770](https://github.com/MRDGH2821/copier-mr-minimal/commit/72077708c229334cfc642077de21ecd47d40c22a)) - MRDGH2821
-- use global pre command - ([72539d1](https://github.com/MRDGH2821/copier-mr-minimal/commit/72539d13781f00b2a44a3c9835c206032b22a0e7)) - MRDGH2821
+- convert package.json into jinja template - ([7207770](https://github.com/MRDGH2821/copier-mr-nix/commit/72077708c229334cfc642077de21ecd47d40c22a)) - MRDGH2821
+- use global pre command - ([72539d1](https://github.com/MRDGH2821/copier-mr-nix/commit/72539d13781f00b2a44a3c9835c206032b22a0e7)) - MRDGH2821
 
 ### Ci
 
-- **(megalinter)** pin hash versions of actions - ([2ab988a](https://github.com/MRDGH2821/copier-mr-minimal/commit/2ab988a2ac39973a6287ff4f13027f3325c64152)) - MRDGH2821
-- fix prettier plugin installation by using bun - ([f6c3d09](https://github.com/MRDGH2821/copier-mr-minimal/commit/f6c3d0907b67563cb0509c2f9bcb9c9fb6e338d1)) - MRDGH2821
-- remove bun from ci - ([5e65427](https://github.com/MRDGH2821/copier-mr-minimal/commit/5e654273ce8b524b3da393e32c41448dc30fc704)) - MRDGH2821
+- **(megalinter)** pin hash versions of actions - ([2ab988a](https://github.com/MRDGH2821/copier-mr-nix/commit/2ab988a2ac39973a6287ff4f13027f3325c64152)) - MRDGH2821
+- fix prettier plugin installation by using bun - ([f6c3d09](https://github.com/MRDGH2821/copier-mr-nix/commit/f6c3d0907b67563cb0509c2f9bcb9c9fb6e338d1)) - MRDGH2821
+- remove bun from ci - ([5e65427](https://github.com/MRDGH2821/copier-mr-nix/commit/5e654273ce8b524b3da393e32c41448dc30fc704)) - MRDGH2821
 
 ---
 
-## [0.23.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.22.2..v0.23.0) - 2026-06-08
+## [0.23.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.22.2..v0.23.0) - 2026-06-08
 
 ### Features
 
-- **(megalinter)** update config - ([010f81e](https://github.com/MRDGH2821/copier-mr-minimal/commit/010f81e5fed7d6f4b9c3731075a03b6ce24e7c29)) - MRDGH2821
-- **(pre-commit)** update hooks - ([2eb9363](https://github.com/MRDGH2821/copier-mr-minimal/commit/2eb936327287c14494b8af998c9d65a57c94fe0b)) - MRDGH2821
+- **(megalinter)** update config - ([010f81e](https://github.com/MRDGH2821/copier-mr-nix/commit/010f81e5fed7d6f4b9c3731075a03b6ce24e7c29)) - MRDGH2821
+- **(pre-commit)** update hooks - ([2eb9363](https://github.com/MRDGH2821/copier-mr-nix/commit/2eb936327287c14494b8af998c9d65a57c94fe0b)) - MRDGH2821
 
 ---
 
-## [0.22.2](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.22.1..v0.22.2) - 2026-06-05
+## [0.22.2](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.22.1..v0.22.2) - 2026-06-05
 
 ### Bug Fixes
 
-- **(treefmt)** fix syntax - ([2c86b58](https://github.com/MRDGH2821/copier-mr-minimal/commit/2c86b587c18da1dc4b899c7f4b1cd700d7fc70cd)) - MRDGH2821
+- **(treefmt)** fix syntax - ([2c86b58](https://github.com/MRDGH2821/copier-mr-nix/commit/2c86b587c18da1dc4b899c7f4b1cd700d7fc70cd)) - MRDGH2821
 
 ---
 
-## [0.22.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.22.0..v0.22.1) - 2026-06-01
+## [0.22.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.22.0..v0.22.1) - 2026-06-01
 
 ### Bug Fixes
 
-- **(treefmt)** exclude more file types - ([beb4eb1](https://github.com/MRDGH2821/copier-mr-minimal/commit/beb4eb1a392049ae85b0da9454b43d5ee10bf5ac)) - MRDGH2821
+- **(treefmt)** exclude more file types - ([beb4eb1](https://github.com/MRDGH2821/copier-mr-nix/commit/beb4eb1a392049ae85b0da9454b43d5ee10bf5ac)) - MRDGH2821
 
 ---
 
-## [0.22.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.21.0..v0.22.0) - 2026-05-27
+## [0.22.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.21.0..v0.22.0) - 2026-05-27
 
 ### Bug Fixes
 
-- ignore media & binary files - ([715da4a](https://github.com/MRDGH2821/copier-mr-minimal/commit/715da4a2cbe07afdd8299a01e491b4c114df1f63)) - MRDGH2821
+- ignore media & binary files - ([715da4a](https://github.com/MRDGH2821/copier-mr-nix/commit/715da4a2cbe07afdd8299a01e491b4c114df1f63)) - MRDGH2821
 
 ### Features
 
-- update skills list - ([d4624d1](https://github.com/MRDGH2821/copier-mr-minimal/commit/d4624d1998f957fdd9c2efec526106bd179ccd3b)) - MRDGH2821
+- update skills list - ([d4624d1](https://github.com/MRDGH2821/copier-mr-nix/commit/d4624d1998f957fdd9c2efec526106bd179ccd3b)) - MRDGH2821
 
 ---
 
-## [0.21.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.20.0..v0.21.0) - 2026-05-22
+## [0.21.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.20.0..v0.21.0) - 2026-05-22
 
 ### Features
 
-- **(copier)** add tasks & questions - ([e435ca2](https://github.com/MRDGH2821/copier-mr-minimal/commit/e435ca2b0995671dcc0189375ad46d2b942c1ddd)) - MRDGH2821
+- **(copier)** add tasks & questions - ([e435ca2](https://github.com/MRDGH2821/copier-mr-nix/commit/e435ca2b0995671dcc0189375ad46d2b942c1ddd)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- remove caveman skill - ([4366815](https://github.com/MRDGH2821/copier-mr-minimal/commit/436681587cf6d62f02a9b29545d73acc821c69e5)) - MRDGH2821
+- remove caveman skill - ([4366815](https://github.com/MRDGH2821/copier-mr-nix/commit/436681587cf6d62f02a9b29545d73acc821c69e5)) - MRDGH2821
 
 ---
 
-## [0.20.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.19.1..v0.20.0) - 2026-05-22
+## [0.20.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.19.1..v0.20.0) - 2026-05-22
 
 ### Features
 
-- **(cocogitto)** add pre bump hook to format changelog - ([94ee82a](https://github.com/MRDGH2821/copier-mr-minimal/commit/94ee82a52c09d44df687961de17154a56a9443c7)) - MRDGH2821
+- **(cocogitto)** add pre bump hook to format changelog - ([94ee82a](https://github.com/MRDGH2821/copier-mr-nix/commit/94ee82a52c09d44df687961de17154a56a9443c7)) - MRDGH2821
 
 ### Style
 
-- format files - ([8c4bf4a](https://github.com/MRDGH2821/copier-mr-minimal/commit/8c4bf4ae8cb868f54970868bfb062089179ebc13)) - MRDGH2821
+- format files - ([8c4bf4a](https://github.com/MRDGH2821/copier-mr-nix/commit/8c4bf4ae8cb868f54970868bfb062089179ebc13)) - MRDGH2821
 
 ---
 
-## [0.19.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.19.0..v0.19.1) - 2026-05-22
+## [0.19.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.19.0..v0.19.1) - 2026-05-22
 
 ### Bug Fixes
 
-- delete changelog from template - ([c068172](https://github.com/MRDGH2821/copier-mr-minimal/commit/c0681722940573414dbe5520718f36a0718f347e)) - MRDGH2821
+- delete changelog from template - ([c068172](https://github.com/MRDGH2821/copier-mr-nix/commit/c0681722940573414dbe5520718f36a0718f347e)) - MRDGH2821
 
 ### Style
 
-- format files - ([dd5dccf](https://github.com/MRDGH2821/copier-mr-minimal/commit/dd5dccf0a4a435ddcfcfc672116875d9abf65819)) - MRDGH2821
+- format files - ([dd5dccf](https://github.com/MRDGH2821/copier-mr-nix/commit/dd5dccf0a4a435ddcfcfc672116875d9abf65819)) - MRDGH2821
 
 ---
 
-## [0.19.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.18.0..v0.19.0) - 2026-05-22
+## [0.19.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.18.0..v0.19.0) - 2026-05-22
 
 ### Bug Fixes
 
-- **(cocogitto)** remove treefmt in pre bump hook - ([253a030](https://github.com/MRDGH2821/copier-mr-minimal/commit/253a0302d3923448f6a26fd1c6c2f5a5a9bbd0c7)) - MRDGH2821
+- **(cocogitto)** remove treefmt in pre bump hook - ([253a030](https://github.com/MRDGH2821/copier-mr-nix/commit/253a0302d3923448f6a26fd1c6c2f5a5a9bbd0c7)) - MRDGH2821
 
 ### Features
 
-- **(cocogitto)** add version bumping command - ([a339aae](https://github.com/MRDGH2821/copier-mr-minimal/commit/a339aae00ed74f1bf137ec8a6da98e23f291c2d0)) - MRDGH2821
-- **(pre-commit)** add treefmt hook - ([75a50b3](https://github.com/MRDGH2821/copier-mr-minimal/commit/75a50b3339ee939b0dec47ff679eb559e6dafee7)) - MRDGH2821
-- update formatting config - ([42435b0](https://github.com/MRDGH2821/copier-mr-minimal/commit/42435b0f58155041757a6adc8c0d83513e3e244e)) - MRDGH2821
+- **(cocogitto)** add version bumping command - ([a339aae](https://github.com/MRDGH2821/copier-mr-nix/commit/a339aae00ed74f1bf137ec8a6da98e23f291c2d0)) - MRDGH2821
+- **(pre-commit)** add treefmt hook - ([75a50b3](https://github.com/MRDGH2821/copier-mr-nix/commit/75a50b3339ee939b0dec47ff679eb559e6dafee7)) - MRDGH2821
+- update formatting config - ([42435b0](https://github.com/MRDGH2821/copier-mr-nix/commit/42435b0f58155041757a6adc8c0d83513e3e244e)) - MRDGH2821
 
 ### Style
 
-- format files - ([5bb1076](https://github.com/MRDGH2821/copier-mr-minimal/commit/5bb1076578cf7ffec6ff20bdb5777b604bbd0e1e)) - MRDGH2821
+- format files - ([5bb1076](https://github.com/MRDGH2821/copier-mr-nix/commit/5bb1076578cf7ffec6ff20bdb5777b604bbd0e1e)) - MRDGH2821
 
 ---
 
-## [0.18.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.17.0..v0.18.0) - 2026-05-19
+## [0.18.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.17.0..v0.18.0) - 2026-05-19
 
 ### Features
 
-- update hooks - ([ede3bc2](https://github.com/MRDGH2821/copier-mr-minimal/commit/ede3bc2eebe2e058cd68d7041ce2a33bf5f1600d)) - MRDGH2821
+- update hooks - ([ede3bc2](https://github.com/MRDGH2821/copier-mr-nix/commit/ede3bc2eebe2e058cd68d7041ce2a33bf5f1600d)) - MRDGH2821
 
 ---
 
-## [0.17.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.16.2..v0.17.0) - 2026-05-19
+## [0.17.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.16.2..v0.17.0) - 2026-05-19
 
 ### Features
 
-- don't copy entire github folder if not selected - ([0b7be77](https://github.com/MRDGH2821/copier-mr-minimal/commit/0b7be7712a168e3f65d36c0796275ccf3cef0b88)) - MRDGH2821
-- execute tasks & limit execution scope - ([98eef47](https://github.com/MRDGH2821/copier-mr-minimal/commit/98eef478523eb5827bcadaae60c419ae8a5b6b1e)) - MRDGH2821
+- don't copy entire github folder if not selected - ([0b7be77](https://github.com/MRDGH2821/copier-mr-nix/commit/0b7be7712a168e3f65d36c0796275ccf3cef0b88)) - MRDGH2821
+- execute tasks & limit execution scope - ([98eef47](https://github.com/MRDGH2821/copier-mr-nix/commit/98eef478523eb5827bcadaae60c419ae8a5b6b1e)) - MRDGH2821
 
 ---
 
-## [0.16.2](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.16.1..v0.16.2) - 2026-05-05
+## [0.16.2](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.16.1..v0.16.2) - 2026-05-05
 
 ### Bug Fixes
 
-- **(treefmt)** fix syntax & options - ([39a2d95](https://github.com/MRDGH2821/copier-mr-minimal/commit/39a2d95cc782397992217f62664d81cfafa785d1)) - MRDGH2821
+- **(treefmt)** fix syntax & options - ([39a2d95](https://github.com/MRDGH2821/copier-mr-nix/commit/39a2d95cc782397992217f62664d81cfafa785d1)) - MRDGH2821
 
 ---
 
-## [0.16.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.16.0..v0.16.1) - 2026-05-01
+## [0.16.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.16.0..v0.16.1) - 2026-05-01
 
 ### Bug Fixes
 
-- fix syntax - ([a996fe2](https://github.com/MRDGH2821/copier-mr-minimal/commit/a996fe262fe13e0dea43f1f05aa57b0c2e0e2a48)) - MRDGH2821
+- fix syntax - ([a996fe2](https://github.com/MRDGH2821/copier-mr-nix/commit/a996fe262fe13e0dea43f1f05aa57b0c2e0e2a48)) - MRDGH2821
 
 ---
 
-## [0.16.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.15.3..v0.16.0) - 2026-04-27
+## [0.16.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.15.3..v0.16.0) - 2026-04-27
 
 ### Features
 
-- update skills - ([6f5fb91](https://github.com/MRDGH2821/copier-mr-minimal/commit/6f5fb919173bef09159283ef11c330f60c8c9789)) - MRDGH2821
-- add question for AI skills - ([4db5131](https://github.com/MRDGH2821/copier-mr-minimal/commit/4db51318d6d6c2702b84ff9af804a4ee528a4617)) - MRDGH2821
+- update skills - ([6f5fb91](https://github.com/MRDGH2821/copier-mr-nix/commit/6f5fb919173bef09159283ef11c330f60c8c9789)) - MRDGH2821
+- add question for AI skills - ([4db5131](https://github.com/MRDGH2821/copier-mr-nix/commit/4db51318d6d6c2702b84ff9af804a4ee528a4617)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- notify user with skill suggestions - ([29dc41c](https://github.com/MRDGH2821/copier-mr-minimal/commit/29dc41cb57b89c005ef48a01024e22482bf1c9e3)) - MRDGH2821
+- notify user with skill suggestions - ([29dc41c](https://github.com/MRDGH2821/copier-mr-nix/commit/29dc41cb57b89c005ef48a01024e22482bf1c9e3)) - MRDGH2821
 
 ---
 
-## [0.15.3](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.15.2..v0.15.3) - 2026-04-21
+## [0.15.3](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.15.2..v0.15.3) - 2026-04-21
 
 ### Bug Fixes
 
-- fix bracket - ([ff8c895](https://github.com/MRDGH2821/copier-mr-minimal/commit/ff8c89592dd59efd746e38432ad83184d0a68a57)) - MRDGH2821
+- fix bracket - ([ff8c895](https://github.com/MRDGH2821/copier-mr-nix/commit/ff8c89592dd59efd746e38432ad83184d0a68a57)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(cspell)** add words - ([c6817d6](https://github.com/MRDGH2821/copier-mr-minimal/commit/c6817d6e15f8cf7f7dcf8abefef09925e9d7c9ee)) - MRDGH2821
+- **(cspell)** add words - ([c6817d6](https://github.com/MRDGH2821/copier-mr-nix/commit/c6817d6e15f8cf7f7dcf8abefef09925e9d7c9ee)) - MRDGH2821
 
 ---
 
-## [0.15.2](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.15.1..v0.15.2) - 2026-04-21
+## [0.15.2](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.15.1..v0.15.2) - 2026-04-21
 
 ### Bug Fixes
 
-- fix copier badge - ([a81978d](https://github.com/MRDGH2821/copier-mr-minimal/commit/a81978d9201b91ea1959fefefb96deab1b8da7b2)) - MRDGH2821
+- fix copier badge - ([a81978d](https://github.com/MRDGH2821/copier-mr-nix/commit/a81978d9201b91ea1959fefefb96deab1b8da7b2)) - MRDGH2821
 
 ---
 
-## [0.15.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.15.0..v0.15.1) - 2026-04-17
+## [0.15.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.15.0..v0.15.1) - 2026-04-17
 
 ### Bug Fixes
 
-- set no-positional-arg-support true for prettypst - ([ad974a6](https://github.com/MRDGH2821/copier-mr-minimal/commit/ad974a608ceb20ac4dc0ceb806364a71a63dbbb8)) - MRDGH2821
+- set no-positional-arg-support true for prettypst - ([ad974a6](https://github.com/MRDGH2821/copier-mr-nix/commit/ad974a608ceb20ac4dc0ceb806364a71a63dbbb8)) - MRDGH2821
 
 ### Documentation
 
-- add readme - ([3e2f721](https://github.com/MRDGH2821/copier-mr-minimal/commit/3e2f721c79566d5a84e2ffd363533caa60f194a5)) - MRDGH2821
+- add readme - ([3e2f721](https://github.com/MRDGH2821/copier-mr-nix/commit/3e2f721c79566d5a84e2ffd363533caa60f194a5)) - MRDGH2821
 
 ---
 
-## [0.15.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.14.0..v0.15.0) - 2026-04-08
+## [0.15.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.14.0..v0.15.0) - 2026-04-08
 
 ### Bug Fixes
 
-- ignore devenv & direnv dirs - ([354d66b](https://github.com/MRDGH2821/copier-mr-minimal/commit/354d66bc53a5b87aebeb2f17cb384cc8aec499c0)) - MRDGH2821
+- ignore devenv & direnv dirs - ([354d66b](https://github.com/MRDGH2821/copier-mr-nix/commit/354d66bc53a5b87aebeb2f17cb384cc8aec499c0)) - MRDGH2821
 
 ### Features
 
-- **(treefmt)** update schema and formatters - ([a103921](https://github.com/MRDGH2821/copier-mr-minimal/commit/a103921036b27389956f2abaa2d9f7454a8f1835)) - MRDGH2821
-- **(treefmt)** add more file types to format - ([450aa29](https://github.com/MRDGH2821/copier-mr-minimal/commit/450aa29ff7bc3ebdd3c4f3f2c053abbf2c131352)) - MRDGH2821
+- **(treefmt)** update schema and formatters - ([a103921](https://github.com/MRDGH2821/copier-mr-nix/commit/a103921036b27389956f2abaa2d9f7454a8f1835)) - MRDGH2821
+- **(treefmt)** add more file types to format - ([450aa29](https://github.com/MRDGH2821/copier-mr-nix/commit/450aa29ff7bc3ebdd3c4f3f2c053abbf2c131352)) - MRDGH2821
 
 ---
 
-## [0.14.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.13.0..v0.14.0) - 2026-03-31
+## [0.14.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.13.0..v0.14.0) - 2026-03-31
 
 ### Bug Fixes
 
-- skip skills-lock.json if agents is not used - ([f7ca86f](https://github.com/MRDGH2821/copier-mr-minimal/commit/f7ca86f37418bcc6c6c394752a8c50a8c3d05b9f)) - MRDGH2821
+- skip skills-lock.json if agents is not used - ([f7ca86f](https://github.com/MRDGH2821/copier-mr-nix/commit/f7ca86f37418bcc6c6c394752a8c50a8c3d05b9f)) - MRDGH2821
 
 ### Features
 
-- **(treefmt)** format jsonc - ([d942a87](https://github.com/MRDGH2821/copier-mr-minimal/commit/d942a873abad20b8cc8a2ee2534bc0c870746588)) - MRDGH2821
-- remove 2 skills - ([b279c37](https://github.com/MRDGH2821/copier-mr-minimal/commit/b279c37b8f8afe84ac3ef3f58e0145d645bc501a)) - MRDGH2821
+- **(treefmt)** format jsonc - ([d942a87](https://github.com/MRDGH2821/copier-mr-nix/commit/d942a873abad20b8cc8a2ee2534bc0c870746588)) - MRDGH2821
+- remove 2 skills - ([b279c37](https://github.com/MRDGH2821/copier-mr-nix/commit/b279c37b8f8afe84ac3ef3f58e0145d645bc501a)) - MRDGH2821
 
 ---
 
-## [0.13.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.12.1..v0.13.0) - 2026-03-25
+## [0.13.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.12.1..v0.13.0) - 2026-03-25
 
 ### Features
 
-- **(treefmt)** use smt to sort markdown tables - ([113080b](https://github.com/MRDGH2821/copier-mr-minimal/commit/113080b6171e404f36a0d9d61cb81c09015201e0)) - MRDGH2821
+- **(treefmt)** use smt to sort markdown tables - ([113080b](https://github.com/MRDGH2821/copier-mr-nix/commit/113080b6171e404f36a0d9d61cb81c09015201e0)) - MRDGH2821
 
 ---
 
-## [0.12.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.12.0..v0.12.1) - 2026-03-18
+## [0.12.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.12.0..v0.12.1) - 2026-03-18
 
 ### Bug Fixes
 
-- **(copier)** convert template into regular file - ([4f1c53b](https://github.com/MRDGH2821/copier-mr-minimal/commit/4f1c53b5c77823b3536dff87a8dc88b40c26388e)) - MRDGH2821
-- **(copier)** fix command name - ([9d78970](https://github.com/MRDGH2821/copier-mr-minimal/commit/9d7897076cf5a4f295180836edb50730453bffef)) - MRDGH2821
-- enforce HTTPS-only for git_repo_url validator - ([a558b47](https://github.com/MRDGH2821/copier-mr-minimal/commit/a558b476b1e7955d76dcebb09c0402f2e451327b)) - MRDGH2821
-- modify post-generation tasks to check tool availability only - ([79ff7df](https://github.com/MRDGH2821/copier-mr-minimal/commit/79ff7df5ed91cc047dd6c494062ef1acdff87492)) - MRDGH2821
+- **(copier)** convert template into regular file - ([4f1c53b](https://github.com/MRDGH2821/copier-mr-nix/commit/4f1c53b5c77823b3536dff87a8dc88b40c26388e)) - MRDGH2821
+- **(copier)** fix command name - ([9d78970](https://github.com/MRDGH2821/copier-mr-nix/commit/9d7897076cf5a4f295180836edb50730453bffef)) - MRDGH2821
+- enforce HTTPS-only for git_repo_url validator - ([a558b47](https://github.com/MRDGH2821/copier-mr-nix/commit/a558b476b1e7955d76dcebb09c0402f2e451327b)) - MRDGH2821
+- modify post-generation tasks to check tool availability only - ([79ff7df](https://github.com/MRDGH2821/copier-mr-nix/commit/79ff7df5ed91cc047dd6c494062ef1acdff87492)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(copier)** modify the outputs - ([fbbc380](https://github.com/MRDGH2821/copier-mr-minimal/commit/fbbc380a4cd893ea2fa71d1f2ca385dcb482bab2)) - MRDGH2821
-- **(megalinter)** add schema link - ([f2680e9](https://github.com/MRDGH2821/copier-mr-minimal/commit/f2680e9476675d3c1de7bca4e02194451a9245d7)) - MRDGH2821
+- **(copier)** modify the outputs - ([fbbc380](https://github.com/MRDGH2821/copier-mr-nix/commit/fbbc380a4cd893ea2fa71d1f2ca385dcb482bab2)) - MRDGH2821
+- **(megalinter)** add schema link - ([f2680e9](https://github.com/MRDGH2821/copier-mr-nix/commit/f2680e9476675d3c1de7bca4e02194451a9245d7)) - MRDGH2821
 
 ---
 
-## [0.12.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.11.0..v0.12.0) - 2026-03-17
+## [0.12.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.11.0..v0.12.0) - 2026-03-17
 
 ### Bug Fixes
 
-- remove redundancies from AGENTS.md files - ([aaeccf2](https://github.com/MRDGH2821/copier-mr-minimal/commit/aaeccf2f2dff263c2869580c7358951e07001416)) - MRDGH2821
+- remove redundancies from AGENTS.md files - ([aaeccf2](https://github.com/MRDGH2821/copier-mr-nix/commit/aaeccf2f2dff263c2869580c7358951e07001416)) - MRDGH2821
 
 ### Documentation
 
-- remove Project Skills table from AGENTS.md files - ([175f4de](https://github.com/MRDGH2821/copier-mr-minimal/commit/175f4de0e9476a2cee363c70bb6dbc7c48e84690)) - MRDGH2821
+- remove Project Skills table from AGENTS.md files - ([175f4de](https://github.com/MRDGH2821/copier-mr-nix/commit/175f4de0e9476a2cee363c70bb6dbc7c48e84690)) - MRDGH2821
 
 ### Features
 
-- add skills in template - ([5e113fa](https://github.com/MRDGH2821/copier-mr-minimal/commit/5e113fa9f08bdd012f8634a6721d732b02542ed6)) - MRDGH2821
+- add skills in template - ([5e113fa](https://github.com/MRDGH2821/copier-mr-nix/commit/5e113fa9f08bdd012f8634a6721d732b02542ed6)) - MRDGH2821
 
 ### Ci
 
-- **(megalinter)** disable devskim - ([c5df380](https://github.com/MRDGH2821/copier-mr-minimal/commit/c5df3801ab33e984155ecfa3db3120379f8905e8)) - MRDGH2821
+- **(megalinter)** disable devskim - ([c5df380](https://github.com/MRDGH2821/copier-mr-nix/commit/c5df3801ab33e984155ecfa3db3120379f8905e8)) - MRDGH2821
 
 ---
 
-## [0.11.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.10.0..v0.11.0) - 2026-03-16
+## [0.11.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.10.0..v0.11.0) - 2026-03-16
 
 ### Bug Fixes
 
-- **(cocogitto)** fix changelog generation - ([3a21099](https://github.com/MRDGH2821/copier-mr-minimal/commit/3a2109936960acf95eea1a8f2d26a37228d77d1e)) - MRDGH2821
-- **(megalinter)** install prettier plugin - ([de1d09e](https://github.com/MRDGH2821/copier-mr-minimal/commit/de1d09e0687ad126126f35ff33079a8c9df88866)) - MRDGH2821
-- make files executable - ([de2d51d](https://github.com/MRDGH2821/copier-mr-minimal/commit/de2d51d939efc08079759fdc55ccccab043ac02c)) - MRDGH2821
-- fix linter errors - ([c9e6c3a](https://github.com/MRDGH2821/copier-mr-minimal/commit/c9e6c3a569388c7540712706a38dd1323df881dd)) - MRDGH2821
+- **(cocogitto)** fix changelog generation - ([3a21099](https://github.com/MRDGH2821/copier-mr-nix/commit/3a2109936960acf95eea1a8f2d26a37228d77d1e)) - MRDGH2821
+- **(megalinter)** install prettier plugin - ([de1d09e](https://github.com/MRDGH2821/copier-mr-nix/commit/de1d09e0687ad126126f35ff33079a8c9df88866)) - MRDGH2821
+- make files executable - ([de2d51d](https://github.com/MRDGH2821/copier-mr-nix/commit/de2d51d939efc08079759fdc55ccccab043ac02c)) - MRDGH2821
+- fix linter errors - ([c9e6c3a](https://github.com/MRDGH2821/copier-mr-nix/commit/c9e6c3a569388c7540712706a38dd1323df881dd)) - MRDGH2821
 
 ### Documentation
 
-- **(cocogitto)** correct cocogitto skill: cog commit supports multiline MESSAGE for trailers - ([5dfffb5](https://github.com/MRDGH2821/copier-mr-minimal/commit/5dfffb5faea05a72a441ad8230638fe4ba3c849f)) - MRDGH2821
-- **(cocogitto)** document --edit flag limitation in cocogitto skill - ([0a9ac68](https://github.com/MRDGH2821/copier-mr-minimal/commit/0a9ac68c70612610fa912f5bb7a46e31d6b94fc7)) - MRDGH2821
-- **(pre-commit)** remove treefmt hook, add manual treefmt -vv instruction - ([e0d38c6](https://github.com/MRDGH2821/copier-mr-minimal/commit/e0d38c60f3b182d2ef583441a8ad8b1dbcfc4a36)) - MRDGH2821
-- overhaul template AGENTS.md with mandatory action logging - ([1ca6d00](https://github.com/MRDGH2821/copier-mr-minimal/commit/1ca6d0035bda40a74b49b8b6d890fd6d5895407a)) - MRDGH2821
-- add mandatory AI Co-authored-by trailer rule to commit guidelines - ([cc0d977](https://github.com/MRDGH2821/copier-mr-minimal/commit/cc0d977f72efeb6626164f422c1ae1295586c54a)) - MRDGH2821
-- add git-commit skill, replace Prettier with treefmt, add Project Skills table to template - ([0439ca1](https://github.com/MRDGH2821/copier-mr-minimal/commit/0439ca1d69e475f4fc418cbd579a310f8dad9c35)) - MRDGH2821
-- remove manual prek run instructions, hooks run automatically on commit - ([e3d11b4](https://github.com/MRDGH2821/copier-mr-minimal/commit/e3d11b4061b7cb74228f644092b8071ce5708d8a)) - MRDGH2821
-- point commit scope reference to cog.toml instead of pre-commit config - ([bdff5aa](https://github.com/MRDGH2821/copier-mr-minimal/commit/bdff5aa82d3c20fc1e2e006d735e126e834f4ff6)) - MRDGH2821
+- **(cocogitto)** correct cocogitto skill: cog commit supports multiline MESSAGE for trailers - ([5dfffb5](https://github.com/MRDGH2821/copier-mr-nix/commit/5dfffb5faea05a72a441ad8230638fe4ba3c849f)) - MRDGH2821
+- **(cocogitto)** document --edit flag limitation in cocogitto skill - ([0a9ac68](https://github.com/MRDGH2821/copier-mr-nix/commit/0a9ac68c70612610fa912f5bb7a46e31d6b94fc7)) - MRDGH2821
+- **(pre-commit)** remove treefmt hook, add manual treefmt -vv instruction - ([e0d38c6](https://github.com/MRDGH2821/copier-mr-nix/commit/e0d38c60f3b182d2ef583441a8ad8b1dbcfc4a36)) - MRDGH2821
+- overhaul template AGENTS.md with mandatory action logging - ([1ca6d00](https://github.com/MRDGH2821/copier-mr-nix/commit/1ca6d0035bda40a74b49b8b6d890fd6d5895407a)) - MRDGH2821
+- add mandatory AI Co-authored-by trailer rule to commit guidelines - ([cc0d977](https://github.com/MRDGH2821/copier-mr-nix/commit/cc0d977f72efeb6626164f422c1ae1295586c54a)) - MRDGH2821
+- add git-commit skill, replace Prettier with treefmt, add Project Skills table to template - ([0439ca1](https://github.com/MRDGH2821/copier-mr-nix/commit/0439ca1d69e475f4fc418cbd579a310f8dad9c35)) - MRDGH2821
+- remove manual prek run instructions, hooks run automatically on commit - ([e3d11b4](https://github.com/MRDGH2821/copier-mr-nix/commit/e3d11b4061b7cb74228f644092b8071ce5708d8a)) - MRDGH2821
+- point commit scope reference to cog.toml instead of pre-commit config - ([bdff5aa](https://github.com/MRDGH2821/copier-mr-nix/commit/bdff5aa82d3c20fc1e2e006d735e126e834f4ff6)) - MRDGH2821
 
 ### Features
 
-- **(cocogitto)** add cocogitto skill for conventional commits via cog CLI - ([00e0000](https://github.com/MRDGH2821/copier-mr-minimal/commit/00e0000739b8cb5eddf319422a0fe82e573d6316)) - MRDGH2821
-- **(copier)** ask for git repo url - ([ee4ac6b](https://github.com/MRDGH2821/copier-mr-minimal/commit/ee4ac6b3e3ae4ac787c0ad6bd760be326283e129)) - MRDGH2821
-- add tool-runner skill for intelligent runtime selection - ([9228559](https://github.com/MRDGH2821/copier-mr-minimal/commit/92285593c16ff06bf00c42972ead42990e879206)) - MRDGH2821
-- add agent skills - ([81f8454](https://github.com/MRDGH2821/copier-mr-minimal/commit/81f84547cdfe71df29167b31db66728dc7e40cd4)) - MRDGH2821
+- **(cocogitto)** add cocogitto skill for conventional commits via cog CLI - ([00e0000](https://github.com/MRDGH2821/copier-mr-nix/commit/00e0000739b8cb5eddf319422a0fe82e573d6316)) - MRDGH2821
+- **(copier)** ask for git repo url - ([ee4ac6b](https://github.com/MRDGH2821/copier-mr-nix/commit/ee4ac6b3e3ae4ac787c0ad6bd760be326283e129)) - MRDGH2821
+- add tool-runner skill for intelligent runtime selection - ([9228559](https://github.com/MRDGH2821/copier-mr-nix/commit/92285593c16ff06bf00c42972ead42990e879206)) - MRDGH2821
+- add agent skills - ([81f8454](https://github.com/MRDGH2821/copier-mr-nix/commit/81f84547cdfe71df29167b31db66728dc7e40cd4)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(cspell)** update word list - ([51695fe](https://github.com/MRDGH2821/copier-mr-minimal/commit/51695fec3cb330b496000debbe212d551239d82c)) - MRDGH2821
-- **(pre-commit)** update hooks - ([db197da](https://github.com/MRDGH2821/copier-mr-minimal/commit/db197da43fa2463e8958d91961ef09b04bf9cef9)) - MRDGH2821
-- add find-skills skill - ([d353160](https://github.com/MRDGH2821/copier-mr-minimal/commit/d353160f7f6828494adeb64587215c8379c345c4)) - MRDGH2821
-- delete agents_global as no longer needed - ([a64d409](https://github.com/MRDGH2821/copier-mr-minimal/commit/a64d409ca1e174141aed5db8234b931243eb016b)) - MRDGH2821
-- add .lycheeignore - ([fcf2e53](https://github.com/MRDGH2821/copier-mr-minimal/commit/fcf2e538a0cfd4efa8ea7723665830768980af57)) - MRDGH2821
+- **(cspell)** update word list - ([51695fe](https://github.com/MRDGH2821/copier-mr-nix/commit/51695fec3cb330b496000debbe212d551239d82c)) - MRDGH2821
+- **(pre-commit)** update hooks - ([db197da](https://github.com/MRDGH2821/copier-mr-nix/commit/db197da43fa2463e8958d91961ef09b04bf9cef9)) - MRDGH2821
+- add find-skills skill - ([d353160](https://github.com/MRDGH2821/copier-mr-nix/commit/d353160f7f6828494adeb64587215c8379c345c4)) - MRDGH2821
+- delete agents_global as no longer needed - ([a64d409](https://github.com/MRDGH2821/copier-mr-nix/commit/a64d409ca1e174141aed5db8234b931243eb016b)) - MRDGH2821
+- add .lycheeignore - ([fcf2e53](https://github.com/MRDGH2821/copier-mr-nix/commit/fcf2e538a0cfd4efa8ea7723665830768980af57)) - MRDGH2821
 
 ### Refactoring
 
-- **(treefmt)** use glob matching - ([00c8019](https://github.com/MRDGH2821/copier-mr-minimal/commit/00c80196e981c402e8d59daf90d3ac004c38dd1c)) - MRDGH2821
-- use .agents folder instead - ([b9eb7fe](https://github.com/MRDGH2821/copier-mr-minimal/commit/b9eb7fe470e3e2eb9d986c960c67959fab34c669)) - MRDGH2821
-- convert to template - ([1ec7307](https://github.com/MRDGH2821/copier-mr-minimal/commit/1ec73076777d721857820724b1f974c79bedce11)) - MRDGH2821
+- **(treefmt)** use glob matching - ([00c8019](https://github.com/MRDGH2821/copier-mr-nix/commit/00c80196e981c402e8d59daf90d3ac004c38dd1c)) - MRDGH2821
+- use .agents folder instead - ([b9eb7fe](https://github.com/MRDGH2821/copier-mr-nix/commit/b9eb7fe470e3e2eb9d986c960c67959fab34c669)) - MRDGH2821
+- convert to template - ([1ec7307](https://github.com/MRDGH2821/copier-mr-nix/commit/1ec73076777d721857820724b1f974c79bedce11)) - MRDGH2821
 
 ### Style
 
-- format files - ([52f387a](https://github.com/MRDGH2821/copier-mr-minimal/commit/52f387aefd7e3e3b446d9823cbef4602e8c7b5cf)) - MRDGH2821
+- format files - ([52f387a](https://github.com/MRDGH2821/copier-mr-nix/commit/52f387aefd7e3e3b446d9823cbef4602e8c7b5cf)) - MRDGH2821
 
 ---
 
-## [0.10.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.9.1..v0.10.0) - 2026-03-16
+## [0.10.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.9.1..v0.10.0) - 2026-03-16
 
 ### Features
 
-- **(treefmt)** add formatter for ignore files - ([de11990](https://github.com/MRDGH2821/copier-mr-minimal/commit/de11990917a1e5f7adebb7397203a16cecb3ce13)) - MRDGH2821
+- **(treefmt)** add formatter for ignore files - ([de11990](https://github.com/MRDGH2821/copier-mr-nix/commit/de11990917a1e5f7adebb7397203a16cecb3ce13)) - MRDGH2821
 
 ---
 
-## [0.9.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.9.0..v0.9.1) - 2026-03-16
+## [0.9.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.9.0..v0.9.1) - 2026-03-16
 
 ### Bug Fixes
 
-- **(treefmt)** use glob patterns to match all possible cspell config fields - ([d5c223c](https://github.com/MRDGH2821/copier-mr-minimal/commit/d5c223c84fb42a91c6ce93a0ca75f33093be683e)) - MRDGH2821
+- **(treefmt)** use glob patterns to match all possible cspell config fields - ([d5c223c](https://github.com/MRDGH2821/copier-mr-nix/commit/d5c223c84fb42a91c6ce93a0ca75f33093be683e)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(cspell)** update words - ([fa05d6a](https://github.com/MRDGH2821/copier-mr-minimal/commit/fa05d6a1e3706931f4e2e0f780be758b628f7468)) - MRDGH2821
+- **(cspell)** update words - ([fa05d6a](https://github.com/MRDGH2821/copier-mr-nix/commit/fa05d6a1e3706931f4e2e0f780be758b628f7468)) - MRDGH2821
 
 ---
 
-## [0.9.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.8.1..v0.9.0) - 2026-03-10
+## [0.9.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.8.1..v0.9.0) - 2026-03-10
 
 ### Features
 
-- **(treefmt)** add typstyle formatter - ([ec6b682](https://github.com/MRDGH2821/copier-mr-minimal/commit/ec6b68288f55e7507b680630b0d64fb01bf80b59)) - MRDGH2821
+- **(treefmt)** add typstyle formatter - ([ec6b682](https://github.com/MRDGH2821/copier-mr-nix/commit/ec6b68288f55e7507b680630b0d64fb01bf80b59)) - MRDGH2821
 
 ---
 
-## [0.8.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.8.0..v0.8.1) - 2026-03-10
+## [0.8.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.8.0..v0.8.1) - 2026-03-10
 
 ### Bug Fixes
 
-- **(treefmt)** allow missing formatters - ([466c1b4](https://github.com/MRDGH2821/copier-mr-minimal/commit/466c1b48ae44e55f69b27c66e4e5da9dbd075a8a)) - MRDGH2821
+- **(treefmt)** allow missing formatters - ([466c1b4](https://github.com/MRDGH2821/copier-mr-nix/commit/466c1b48ae44e55f69b27c66e4e5da9dbd075a8a)) - MRDGH2821
 
 ---
 
-## [0.8.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.7.1..v0.8.0) - 2026-03-09
+## [0.8.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.7.1..v0.8.0) - 2026-03-09
 
 ### Features
 
-- add treefmt-nix integration - ([d452d4f](https://github.com/MRDGH2821/copier-mr-minimal/commit/d452d4f4b01b4325e0fc6b4b787404ae8128945f)) - MRDGH2821
-- add questions & flake.nix - ([85fceef](https://github.com/MRDGH2821/copier-mr-minimal/commit/85fceef1b9f363db3590ced0d837bddec0b1f15c)) - MRDGH2821
+- add treefmt-nix integration - ([d452d4f](https://github.com/MRDGH2821/copier-mr-nix/commit/d452d4f4b01b4325e0fc6b4b787404ae8128945f)) - MRDGH2821
+- add questions & flake.nix - ([85fceef](https://github.com/MRDGH2821/copier-mr-nix/commit/85fceef1b9f363db3590ced0d837bddec0b1f15c)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(treefmt)** add nixfmt - ([c4f1685](https://github.com/MRDGH2821/copier-mr-minimal/commit/c4f16856f42f1be2b155f4d361240bf21f403861)) - MRDGH2821
-- add flake.nix - ([9da6ba5](https://github.com/MRDGH2821/copier-mr-minimal/commit/9da6ba522e574dacc2ce41ecff8e5369989d98f5)) - MRDGH2821
-- ignore .direnv - ([ba44fea](https://github.com/MRDGH2821/copier-mr-minimal/commit/ba44fea5dbc26da0ca9950e27c115a619efb42d8)) - MRDGH2821
-- remove treefmt-nix - ([4d16bd0](https://github.com/MRDGH2821/copier-mr-minimal/commit/4d16bd0f1382a4335a428ee4fc91c19593602b9d)) - MRDGH2821
-- add shebang - ([0a0d20c](https://github.com/MRDGH2821/copier-mr-minimal/commit/0a0d20c1b922fa6503e72fd3ecd35cea1950420c)) - MRDGH2821
+- **(treefmt)** add nixfmt - ([c4f1685](https://github.com/MRDGH2821/copier-mr-nix/commit/c4f16856f42f1be2b155f4d361240bf21f403861)) - MRDGH2821
+- add flake.nix - ([9da6ba5](https://github.com/MRDGH2821/copier-mr-nix/commit/9da6ba522e574dacc2ce41ecff8e5369989d98f5)) - MRDGH2821
+- ignore .direnv - ([ba44fea](https://github.com/MRDGH2821/copier-mr-nix/commit/ba44fea5dbc26da0ca9950e27c115a619efb42d8)) - MRDGH2821
+- remove treefmt-nix - ([4d16bd0](https://github.com/MRDGH2821/copier-mr-nix/commit/4d16bd0f1382a4335a428ee4fc91c19593602b9d)) - MRDGH2821
+- add shebang - ([0a0d20c](https://github.com/MRDGH2821/copier-mr-nix/commit/0a0d20c1b922fa6503e72fd3ecd35cea1950420c)) - MRDGH2821
 
 ### Style
 
-- format file - ([b455f56](https://github.com/MRDGH2821/copier-mr-minimal/commit/b455f5609568fc01ae348a9df5090b7b75c8f6a1)) - MRDGH2821
+- format file - ([b455f56](https://github.com/MRDGH2821/copier-mr-nix/commit/b455f5609568fc01ae348a9df5090b7b75c8f6a1)) - MRDGH2821
 
 ---
 
-## [0.7.1](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.7.0..v0.7.1) - 2026-03-05
+## [0.7.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.7.0..v0.7.1) - 2026-03-05
 
 ### Bug Fixes
 
-- **(cocogitto)** migrate config - ([0943af9](https://github.com/MRDGH2821/copier-mr-minimal/commit/0943af948ed09eceb0692cbe6e4aa0fd5e459122)) - MRDGH2821
+- **(cocogitto)** migrate config - ([0943af9](https://github.com/MRDGH2821/copier-mr-nix/commit/0943af948ed09eceb0692cbe6e4aa0fd5e459122)) - MRDGH2821
 
 ---
 
-## [0.7.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.6.0..v0.7.0) - 2026-02-27
+## [0.7.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.6.0..v0.7.0) - 2026-02-27
 
 ### Features
 
-- **(treefmt)** add schema link - ([78da12e](https://github.com/MRDGH2821/copier-mr-minimal/commit/78da12e397f8c4ea227f163ec17ce8b3def98569)) - MRDGH2821
+- **(treefmt)** add schema link - ([78da12e](https://github.com/MRDGH2821/copier-mr-nix/commit/78da12e397f8c4ea227f163ec17ce8b3def98569)) - MRDGH2821
 
 ---
 
-## [0.6.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.5.0..v0.6.0) - 2026-02-24
+## [0.6.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.5.0..v0.6.0) - 2026-02-24
 
 ### Features
 
-- **(treefmt)** add new formatter - ([fcaf442](https://github.com/MRDGH2821/copier-mr-minimal/commit/fcaf4420ebeeb4355d74548407cf5dd3fe2a6850)) - MRDGH2821
-- change syntax of formatters - ([cc4a433](https://github.com/MRDGH2821/copier-mr-minimal/commit/cc4a433a50499a24a04b6c8ba4f5762fdb38a8fc)) - MRDGH2821
+- **(treefmt)** add new formatter - ([fcaf442](https://github.com/MRDGH2821/copier-mr-nix/commit/fcaf4420ebeeb4355d74548407cf5dd3fe2a6850)) - MRDGH2821
+- change syntax of formatters - ([cc4a433](https://github.com/MRDGH2821/copier-mr-nix/commit/cc4a433a50499a24a04b6c8ba4f5762fdb38a8fc)) - MRDGH2821
 
 ---
 
-## [0.5.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.4.0..v0.5.0) - 2026-02-20
+## [0.5.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.4.0..v0.5.0) - 2026-02-20
 
 ### Bug Fixes
 
-- fix linter errors - ([f59d94e](https://github.com/MRDGH2821/copier-mr-minimal/commit/f59d94e262d18b4a54d30301f63e6c524dba5445)) - MRDGH2821
+- fix linter errors - ([f59d94e](https://github.com/MRDGH2821/copier-mr-nix/commit/f59d94e262d18b4a54d30301f63e6c524dba5445)) - MRDGH2821
 
 ### Features
 
-- add gitlab ci - ([1b360a6](https://github.com/MRDGH2821/copier-mr-minimal/commit/1b360a688d80f5d18ec1a967abf08c91da44a75c)) - MRDGH2821
-- add question for ci - ([6f395a3](https://github.com/MRDGH2821/copier-mr-minimal/commit/6f395a3e0ce581ca2f58b46a2828e4489cfbd5f7)) - MRDGH2821
+- add gitlab ci - ([1b360a6](https://github.com/MRDGH2821/copier-mr-nix/commit/1b360a688d80f5d18ec1a967abf08c91da44a75c)) - MRDGH2821
+- add question for ci - ([6f395a3](https://github.com/MRDGH2821/copier-mr-nix/commit/6f395a3e0ce581ca2f58b46a2828e4489cfbd5f7)) - MRDGH2821
 
 ### Refactoring
 
-- **(copier)** conditionally exclude files via config - ([50cd43c](https://github.com/MRDGH2821/copier-mr-minimal/commit/50cd43c0fb1078fd4c76940be2f6c44b679eeec7)) - MRDGH2821
-- reorder hooks & add tombi array sorting directives - ([e5c0ba1](https://github.com/MRDGH2821/copier-mr-minimal/commit/e5c0ba12ad4cd603314abf455850de5a8eeb64da)) - MRDGH2821
+- **(copier)** conditionally exclude files via config - ([50cd43c](https://github.com/MRDGH2821/copier-mr-nix/commit/50cd43c0fb1078fd4c76940be2f6c44b679eeec7)) - MRDGH2821
+- reorder hooks & add tombi array sorting directives - ([e5c0ba1](https://github.com/MRDGH2821/copier-mr-nix/commit/e5c0ba12ad4cd603314abf455850de5a8eeb64da)) - MRDGH2821
 
 ### Style
 
-- format file - ([760cdb9](https://github.com/MRDGH2821/copier-mr-minimal/commit/760cdb9bdf1d7d526272ffa963166663bbfff021)) - MRDGH2821
+- format file - ([760cdb9](https://github.com/MRDGH2821/copier-mr-nix/commit/760cdb9bdf1d7d526272ffa963166663bbfff021)) - MRDGH2821
 
 ### Ci
 
-- **(megalinter)** add pre run commands - ([35fb6d3](https://github.com/MRDGH2821/copier-mr-minimal/commit/35fb6d3546f53edb75bccf32ce9d24591e4c3b94)) - MRDGH2821
+- **(megalinter)** add pre run commands - ([35fb6d3](https://github.com/MRDGH2821/copier-mr-nix/commit/35fb6d3546f53edb75bccf32ce9d24591e4c3b94)) - MRDGH2821
 
 ---
 
-## [0.4.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.3.0..v0.4.0) - 2026-02-15
+## [0.4.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.3.0..v0.4.0) - 2026-02-15
 
 ### Features
 
-- add treefmt & yamlfix config - ([ebe81d4](https://github.com/MRDGH2821/copier-mr-minimal/commit/ebe81d402f20d51d7c3b2507611c206b0cc8de4a)) - MRDGH2821
+- add treefmt & yamlfix config - ([ebe81d4](https://github.com/MRDGH2821/copier-mr-nix/commit/ebe81d402f20d51d7c3b2507611c206b0cc8de4a)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(prettier)** remove unneeded plugin - ([21abb39](https://github.com/MRDGH2821/copier-mr-minimal/commit/21abb39764106ee3283028a8d0be72ca7608de21)) - MRDGH2821
+- **(prettier)** remove unneeded plugin - ([21abb39](https://github.com/MRDGH2821/copier-mr-nix/commit/21abb39764106ee3283028a8d0be72ca7608de21)) - MRDGH2821
 
 ### Style
 
-- format files - ([63cf11a](https://github.com/MRDGH2821/copier-mr-minimal/commit/63cf11adc8ab9ac3a964945d886554a26d8f07aa)) - MRDGH2821
+- format files - ([63cf11a](https://github.com/MRDGH2821/copier-mr-nix/commit/63cf11adc8ab9ac3a964945d886554a26d8f07aa)) - MRDGH2821
 
 ---
 
-## [0.3.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.2.0..v0.3.0) - 2026-02-07
+## [0.3.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.2.0..v0.3.0) - 2026-02-07
 
 ### Features
 
-- **(cocogitto)** update scopes - ([858a4cd](https://github.com/MRDGH2821/copier-mr-minimal/commit/858a4cd8876e240153d463878833ae872cda540c)) - MRDGH2821
-- **(cocogitto)** use git-cliff to generate changelogs - ([b5a98ee](https://github.com/MRDGH2821/copier-mr-minimal/commit/b5a98eeb64876719c960ffaea1d8738d4255bad5)) - MRDGH2821
-- **(prettier)** disable trailing commas - ([2f9997b](https://github.com/MRDGH2821/copier-mr-minimal/commit/2f9997bfe67e752a7916e26fddc1a0e0af841372)) - MRDGH2821
+- **(cocogitto)** update scopes - ([858a4cd](https://github.com/MRDGH2821/copier-mr-nix/commit/858a4cd8876e240153d463878833ae872cda540c)) - MRDGH2821
+- **(cocogitto)** use git-cliff to generate changelogs - ([b5a98ee](https://github.com/MRDGH2821/copier-mr-nix/commit/b5a98eeb64876719c960ffaea1d8738d4255bad5)) - MRDGH2821
+- **(prettier)** disable trailing commas - ([2f9997b](https://github.com/MRDGH2821/copier-mr-nix/commit/2f9997bfe67e752a7916e26fddc1a0e0af841372)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(cspell)** update word list - ([dde1b5a](https://github.com/MRDGH2821/copier-mr-minimal/commit/dde1b5a61ebe25d2806c81eeb77ee1a1b0c71229)) - MRDGH2821
+- **(cspell)** update word list - ([dde1b5a](https://github.com/MRDGH2821/copier-mr-nix/commit/dde1b5a61ebe25d2806c81eeb77ee1a1b0c71229)) - MRDGH2821
 
 ### Build
 
-- convert prettier & plugins to dev deps - ([20ccb78](https://github.com/MRDGH2821/copier-mr-minimal/commit/20ccb782db6ab5ddeffe2b208dd989c1402fa34f)) - MRDGH2821
+- convert prettier & plugins to dev deps - ([20ccb78](https://github.com/MRDGH2821/copier-mr-nix/commit/20ccb782db6ab5ddeffe2b208dd989c1402fa34f)) - MRDGH2821
 
 ---
 
-## [0.2.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.1.0..v0.2.0) - 2026-02-04
+## [0.2.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.1.0..v0.2.0) - 2026-02-04
 
 ### Bug Fixes
 
-- **(cocogitto)** use tag with `v` prefix - ([735a28b](https://github.com/MRDGH2821/copier-mr-minimal/commit/735a28b2cb7415d3206678e69276f30bb261cca5)) - MRDGH2821
+- **(cocogitto)** use tag with `v` prefix - ([735a28b](https://github.com/MRDGH2821/copier-mr-nix/commit/735a28b2cb7415d3206678e69276f30bb261cca5)) - MRDGH2821
 
 ### Features
 
-- **(prettier)** add ignore file - ([7b0441c](https://github.com/MRDGH2821/copier-mr-minimal/commit/7b0441c770526a7658b8e7ea5f1a368bf956cc31)) - MRDGH2821
+- **(prettier)** add ignore file - ([7b0441c](https://github.com/MRDGH2821/copier-mr-nix/commit/7b0441c770526a7658b8e7ea5f1a368bf956cc31)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- add prettier plugin & workspaces - ([2488b39](https://github.com/MRDGH2821/copier-mr-minimal/commit/2488b3987cc74759a424f3c4620d9d1d82ab17d5)) - MRDGH2821
-- add detailed changelog - ([434c82c](https://github.com/MRDGH2821/copier-mr-minimal/commit/434c82c83f9441b134b082be23364ec05fb6f7e6)) - MRDGH2821
+- add prettier plugin & workspaces - ([2488b39](https://github.com/MRDGH2821/copier-mr-nix/commit/2488b3987cc74759a424f3c4620d9d1d82ab17d5)) - MRDGH2821
+- add detailed changelog - ([434c82c](https://github.com/MRDGH2821/copier-mr-nix/commit/434c82c83f9441b134b082be23364ec05fb6f7e6)) - MRDGH2821
 
 ---
 
-## [0.1.0](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.18..v0.1.0) - 2026-02-04
+## [0.1.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.18..v0.1.0) - 2026-02-04
 
 ### Bug Fixes
 
-- **(prettier)** add toml plugin - ([da63044](https://github.com/MRDGH2821/copier-mr-minimal/commit/da630441b4c00cfd6f789d69470196863222244c)) - MRDGH2821
+- **(prettier)** add toml plugin - ([da63044](https://github.com/MRDGH2821/copier-mr-nix/commit/da630441b4c00cfd6f789d69470196863222244c)) - MRDGH2821
 
 ### Features
 
-- **(cocogitto)** update config in template - ([99aa546](https://github.com/MRDGH2821/copier-mr-minimal/commit/99aa546aca999e664d3f3aaf0b51ba0e4576f716)) - MRDGH2821
-- **(cocogitto)** add pre cump hooks - ([a3ebbed](https://github.com/MRDGH2821/copier-mr-minimal/commit/a3ebbeda50a40fd552bf7ad816f507d69a536922)) - MRDGH2821
-- **(cocogitto)** update scopes - ([3b68854](https://github.com/MRDGH2821/copier-mr-minimal/commit/3b68854632ae1e7eb24399e4762884461af18910)) - MRDGH2821
+- **(cocogitto)** update config in template - ([99aa546](https://github.com/MRDGH2821/copier-mr-nix/commit/99aa546aca999e664d3f3aaf0b51ba0e4576f716)) - MRDGH2821
+- **(cocogitto)** add pre cump hooks - ([a3ebbed](https://github.com/MRDGH2821/copier-mr-nix/commit/a3ebbeda50a40fd552bf7ad816f507d69a536922)) - MRDGH2821
+- **(cocogitto)** update scopes - ([3b68854](https://github.com/MRDGH2821/copier-mr-nix/commit/3b68854632ae1e7eb24399e4762884461af18910)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(cocogitto)** update config - ([53f5717](https://github.com/MRDGH2821/copier-mr-minimal/commit/53f57179e6b87ba704dc18b6bf1e1def8bb69d3e)) - MRDGH2821
-- **(cocogitto)** update config template - ([79e936e](https://github.com/MRDGH2821/copier-mr-minimal/commit/79e936eaf9d80b3f4d65ba351bf222cdef7066e9)) - MRDGH2821
+- **(cocogitto)** update config - ([53f5717](https://github.com/MRDGH2821/copier-mr-nix/commit/53f57179e6b87ba704dc18b6bf1e1def8bb69d3e)) - MRDGH2821
+- **(cocogitto)** update config template - ([79e936e](https://github.com/MRDGH2821/copier-mr-nix/commit/79e936eaf9d80b3f4d65ba351bf222cdef7066e9)) - MRDGH2821
 
 ---
 
-## [0.0.18](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.17..v0.0.18) - 2026-02-03
+## [0.0.18](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.17..v0.0.18) - 2026-02-03
 
 ### Bug Fixes
 
-- **(copier)** fix syntax - ([8272402](https://github.com/MRDGH2821/copier-mr-minimal/commit/8272402e35d7c1297315dd2c1be38729a5106de1)) - MRDGH2821
+- **(copier)** fix syntax - ([8272402](https://github.com/MRDGH2821/copier-mr-nix/commit/8272402e35d7c1297315dd2c1be38729a5106de1)) - MRDGH2821
 
 ### Features
 
-- **(pre-commit)** update hooks - ([b8396db](https://github.com/MRDGH2821/copier-mr-minimal/commit/b8396db6401f1ecb9b24c1ea2315efc3c540b8a5)) - MRDGH2821
+- **(pre-commit)** update hooks - ([b8396db](https://github.com/MRDGH2821/copier-mr-nix/commit/b8396db6401f1ecb9b24c1ea2315efc3c540b8a5)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(cocogitto)** add config - ([a1d081b](https://github.com/MRDGH2821/copier-mr-minimal/commit/a1d081bbcbda469ea576febd40999f3039810760)) - MRDGH2821
-- **(cspell)** update words - ([87e6ce9](https://github.com/MRDGH2821/copier-mr-minimal/commit/87e6ce9ec8121c313c9f1f9a8ccdb9ed22420ad8)) - MRDGH2821
-- ignore modules dir - ([eac5cd7](https://github.com/MRDGH2821/copier-mr-minimal/commit/eac5cd74d8dde0e94a52109562ebe95ef01d518b)) - MRDGH2821
-- add prettier plugin - ([0019198](https://github.com/MRDGH2821/copier-mr-minimal/commit/0019198348f8164e3906611af57ff4cd81a6de60)) - MRDGH2821
+- **(cocogitto)** add config - ([a1d081b](https://github.com/MRDGH2821/copier-mr-nix/commit/a1d081bbcbda469ea576febd40999f3039810760)) - MRDGH2821
+- **(cspell)** update words - ([87e6ce9](https://github.com/MRDGH2821/copier-mr-nix/commit/87e6ce9ec8121c313c9f1f9a8ccdb9ed22420ad8)) - MRDGH2821
+- ignore modules dir - ([eac5cd7](https://github.com/MRDGH2821/copier-mr-nix/commit/eac5cd74d8dde0e94a52109562ebe95ef01d518b)) - MRDGH2821
+- add prettier plugin - ([0019198](https://github.com/MRDGH2821/copier-mr-nix/commit/0019198348f8164e3906611af57ff4cd81a6de60)) - MRDGH2821
 
 ### Style
 
-- sort properties - ([832f0ca](https://github.com/MRDGH2821/copier-mr-minimal/commit/832f0ca806e17b20cbc1937ec2ec0cf480148d0d)) - MRDGH2821
+- sort properties - ([832f0ca](https://github.com/MRDGH2821/copier-mr-nix/commit/832f0ca806e17b20cbc1937ec2ec0cf480148d0d)) - MRDGH2821
 
 ---
 
-## [0.0.17](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.16..v0.0.17) - 2026-01-14
+## [0.0.17](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.16..v0.0.17) - 2026-01-14
 
 ### Miscellaneous Chores
 
-- **(jscpd)** update ignore list - ([df564e0](https://github.com/MRDGH2821/copier-mr-minimal/commit/df564e0f43237208a2b50f0939138e65e3252a18)) - MRDGH2821
+- **(jscpd)** update ignore list - ([df564e0](https://github.com/MRDGH2821/copier-mr-nix/commit/df564e0f43237208a2b50f0939138e65e3252a18)) - MRDGH2821
 
 ### Refactoring
 
-- segregate global agents setting from project specific ones - ([5f016a0](https://github.com/MRDGH2821/copier-mr-minimal/commit/5f016a0cc000a92700c5a8736a76c15d732ac2ab)) - MRDGH2821
+- segregate global agents setting from project specific ones - ([5f016a0](https://github.com/MRDGH2821/copier-mr-nix/commit/5f016a0cc000a92700c5a8736a76c15d732ac2ab)) - MRDGH2821
 
 ---
 
-## [0.0.16](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.15..v0.0.16) - 2026-01-13
+## [0.0.16](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.15..v0.0.16) - 2026-01-13
 
 ### Miscellaneous Chores
 
-- **(copier)** add .github folder in template - ([9ed081b](https://github.com/MRDGH2821/copier-mr-minimal/commit/9ed081b7cbd3a272040f2967b639da4cf801cb98)) - MRDGH2821
+- **(copier)** add .github folder in template - ([9ed081b](https://github.com/MRDGH2821/copier-mr-nix/commit/9ed081b7cbd3a272040f2967b639da4cf801cb98)) - MRDGH2821
 
 ---
 
-## [0.0.15](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.14..v0.0.15) - 2026-01-13
+## [0.0.15](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.14..v0.0.15) - 2026-01-13
 
 ### Miscellaneous Chores
 
-- **(copier)** add markdown lint config - ([949c2fe](https://github.com/MRDGH2821/copier-mr-minimal/commit/949c2fe975a91c40b18b50cb228cc62923ed80cd)) - MRDGH2821
-- ignore cspell file in duplicates - ([c2715f6](https://github.com/MRDGH2821/copier-mr-minimal/commit/c2715f6b4aab2a4e7b323f0676968348291fba59)) - MRDGH2821
+- **(copier)** add markdown lint config - ([949c2fe](https://github.com/MRDGH2821/copier-mr-nix/commit/949c2fe975a91c40b18b50cb228cc62923ed80cd)) - MRDGH2821
+- ignore cspell file in duplicates - ([c2715f6](https://github.com/MRDGH2821/copier-mr-nix/commit/c2715f6b4aab2a4e7b323f0676968348291fba59)) - MRDGH2821
 
 ### Refactoring
 
-- **(pre-commit)** rename pre-commit config file - ([742090c](https://github.com/MRDGH2821/copier-mr-minimal/commit/742090ced756b8c3077b9f0492e09156b5f18aab)) - MRDGH2821
+- **(pre-commit)** rename pre-commit config file - ([742090c](https://github.com/MRDGH2821/copier-mr-nix/commit/742090ced756b8c3077b9f0492e09156b5f18aab)) - MRDGH2821
 
 ---
 
-## [0.0.14](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.13..v0.0.14) - 2026-01-13
+## [0.0.14](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.13..v0.0.14) - 2026-01-13
 
 ### Documentation
 
-- update agents.md to document every interaction - ([d3f30a9](https://github.com/MRDGH2821/copier-mr-minimal/commit/d3f30a985adaed7584ab9751bc2fa83dda9788c6)) - MRDGH2821
+- update agents.md to document every interaction - ([d3f30a9](https://github.com/MRDGH2821/copier-mr-nix/commit/d3f30a985adaed7584ab9751bc2fa83dda9788c6)) - MRDGH2821
 
 ### Features
 
-- **(copier)** add a question to use AGENTS.md file - ([df64e0f](https://github.com/MRDGH2821/copier-mr-minimal/commit/df64e0f614cf31b1d795d2eab663b08c4ea4bbca)) - MRDGH2821
+- **(copier)** add a question to use AGENTS.md file - ([df64e0f](https://github.com/MRDGH2821/copier-mr-nix/commit/df64e0f614cf31b1d795d2eab663b08c4ea4bbca)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(copier)** install prek hooks - ([d2178c0](https://github.com/MRDGH2821/copier-mr-minimal/commit/d2178c020f6374f3ad1fb1bdfc6d86c918a579e0)) - MRDGH2821
-- add markdownlint config - ([6ccaf49](https://github.com/MRDGH2821/copier-mr-minimal/commit/6ccaf4953a2792f771be7f089b40ad5de8a44a81)) - MRDGH2821
+- **(copier)** install prek hooks - ([d2178c0](https://github.com/MRDGH2821/copier-mr-nix/commit/d2178c020f6374f3ad1fb1bdfc6d86c918a579e0)) - MRDGH2821
+- add markdownlint config - ([6ccaf49](https://github.com/MRDGH2821/copier-mr-nix/commit/6ccaf4953a2792f771be7f089b40ad5de8a44a81)) - MRDGH2821
 
 ### Refactoring
 
-- **(copier)** use a subdirectory for templates - ([18c97d1](https://github.com/MRDGH2821/copier-mr-minimal/commit/18c97d1d9b652a847cf7a74c1cc7f848a80600fa)) - MRDGH2821
+- **(copier)** use a subdirectory for templates - ([18c97d1](https://github.com/MRDGH2821/copier-mr-nix/commit/18c97d1d9b652a847cf7a74c1cc7f848a80600fa)) - MRDGH2821
 
 ### Style
 
-- fix linter warnings - ([ed7f889](https://github.com/MRDGH2821/copier-mr-minimal/commit/ed7f889b3e65018a17cd2359952870524e45b065)) - MRDGH2821
+- fix linter warnings - ([ed7f889](https://github.com/MRDGH2821/copier-mr-nix/commit/ed7f889b3e65018a17cd2359952870524e45b065)) - MRDGH2821
 
 ---
 
-## [0.0.13](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.12..v0.0.13) - 2026-01-13
+## [0.0.13](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.12..v0.0.13) - 2026-01-13
 
 ### Documentation
 
-- add AGENTS.md - ([c68da40](https://github.com/MRDGH2821/copier-mr-minimal/commit/c68da4097fef7092a9c82a6bfae425613336b5e4)) - MRDGH2821
+- add AGENTS.md - ([c68da40](https://github.com/MRDGH2821/copier-mr-nix/commit/c68da4097fef7092a9c82a6bfae425613336b5e4)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(pre-commit)** remove redundant hook type to be installed by default - ([ff65fe5](https://github.com/MRDGH2821/copier-mr-minimal/commit/ff65fe5369c32d4c5fd722e76b6adda6a671e1bf)) - MRDGH2821
+- **(pre-commit)** remove redundant hook type to be installed by default - ([ff65fe5](https://github.com/MRDGH2821/copier-mr-nix/commit/ff65fe5369c32d4c5fd722e76b6adda6a671e1bf)) - MRDGH2821
 
 ---
 
-## [0.0.12](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.11..v0.0.12) - 2026-01-13
+## [0.0.12](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.11..v0.0.12) - 2026-01-13
 
 ### Miscellaneous Chores
 
-- remove megalinter pre-commit hook & question - ([e5b19c3](https://github.com/MRDGH2821/copier-mr-minimal/commit/e5b19c3e1f064b1ff62231b4f5e8278de2013152)) - MRDGH2821
+- remove megalinter pre-commit hook & question - ([e5b19c3](https://github.com/MRDGH2821/copier-mr-nix/commit/e5b19c3e1f064b1ff62231b4f5e8278de2013152)) - MRDGH2821
 
 ---
 
-## [0.0.11](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.10..v0.0.11) - 2026-01-12
+## [0.0.11](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.10..v0.0.11) - 2026-01-12
 
 ### Miscellaneous Chores
 
-- **(copier)** exclude megalinter reports folder - ([4a13230](https://github.com/MRDGH2821/copier-mr-minimal/commit/4a132307b246183f31d992d8df7783c2689e950b)) - MRDGH2821
-- **(copier)** use default answers file name - ([48b88fe](https://github.com/MRDGH2821/copier-mr-minimal/commit/48b88fe98e5a4c8f6df5c54782b18bcc7a807e80)) - MRDGH2821
+- **(copier)** exclude megalinter reports folder - ([4a13230](https://github.com/MRDGH2821/copier-mr-nix/commit/4a132307b246183f31d992d8df7783c2689e950b)) - MRDGH2821
+- **(copier)** use default answers file name - ([48b88fe](https://github.com/MRDGH2821/copier-mr-nix/commit/48b88fe98e5a4c8f6df5c54782b18bcc7a807e80)) - MRDGH2821
 
 ### Style
 
-- **(pre-commit)** split description in multiple lines - ([2fc0690](https://github.com/MRDGH2821/copier-mr-minimal/commit/2fc06907358db5580b04cd2d0cb333a12fb00c26)) - MRDGH2821
-- sort lines - ([f27e35c](https://github.com/MRDGH2821/copier-mr-minimal/commit/f27e35cde58d0d451e68ad4b6c8a4f4b3381a429)) - MRDGH2821
+- **(pre-commit)** split description in multiple lines - ([2fc0690](https://github.com/MRDGH2821/copier-mr-nix/commit/2fc06907358db5580b04cd2d0cb333a12fb00c26)) - MRDGH2821
+- sort lines - ([f27e35c](https://github.com/MRDGH2821/copier-mr-nix/commit/f27e35cde58d0d451e68ad4b6c8a4f4b3381a429)) - MRDGH2821
 
 ---
 
-## [0.0.10](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.9..v0.0.10) - 2026-01-12
+## [0.0.10](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.9..v0.0.10) - 2026-01-12
 
 ### Bug Fixes
 
-- **(pre-commit)** provide cspell config as arg - ([bfb2110](https://github.com/MRDGH2821/copier-mr-minimal/commit/bfb21107aee765a7bbfcde03f9a4945c06ac0042)) - MRDGH2821
+- **(pre-commit)** provide cspell config as arg - ([bfb2110](https://github.com/MRDGH2821/copier-mr-nix/commit/bfb21107aee765a7bbfcde03f9a4945c06ac0042)) - MRDGH2821
 
 ---
 
-## [0.0.9](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.8..v0.0.9) - 2026-01-12
+## [0.0.9](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.8..v0.0.9) - 2026-01-12
 
 ### Bug Fixes
 
-- **(pre-commit)** use correct args syntax - ([3b17938](https://github.com/MRDGH2821/copier-mr-minimal/commit/3b179384714a6d14d3373ff5c0c96cc5d9bc7913)) - MRDGH2821
+- **(pre-commit)** use correct args syntax - ([3b17938](https://github.com/MRDGH2821/copier-mr-nix/commit/3b179384714a6d14d3373ff5c0c96cc5d9bc7913)) - MRDGH2821
 
 ---
 
-## [0.0.8](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.7..v0.0.8) - 2026-01-12
+## [0.0.8](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.7..v0.0.8) - 2026-01-12
 
 ### Bug Fixes
 
-- **(copier)** add answers file template - ([f5f7a1c](https://github.com/MRDGH2821/copier-mr-minimal/commit/f5f7a1c40532cd7b03796a5217194a039bac5f50)) - MRDGH2821
+- **(copier)** add answers file template - ([f5f7a1c](https://github.com/MRDGH2821/copier-mr-nix/commit/f5f7a1c40532cd7b03796a5217194a039bac5f50)) - MRDGH2821
 
 ### Refactoring
 
-- convert ignore file into template - ([4df4e7d](https://github.com/MRDGH2821/copier-mr-minimal/commit/4df4e7de16e322b056046ce598b0bb8330d61318)) - MRDGH2821
+- convert ignore file into template - ([4df4e7d](https://github.com/MRDGH2821/copier-mr-nix/commit/4df4e7de16e322b056046ce598b0bb8330d61318)) - MRDGH2821
 
 ---
 
-## [0.0.7](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.6..v0.0.7) - 2026-01-12
+## [0.0.7](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.6..v0.0.7) - 2026-01-12
 
 ### Miscellaneous Chores
 
-- **(cspell)** update word list - ([e4f2af5](https://github.com/MRDGH2821/copier-mr-minimal/commit/e4f2af5c302dae5a5dcd97e6294208ea4298d5da)) - MRDGH2821
-- **(megalinter)** update config - ([b0cc332](https://github.com/MRDGH2821/copier-mr-minimal/commit/b0cc332ddf563162428f9d91d67d637048fbd374)) - MRDGH2821
-- add ignore config - ([6ce4548](https://github.com/MRDGH2821/copier-mr-minimal/commit/6ce45480d905416b5c56d4f4bc17f70dee23e8f6)) - MRDGH2821
+- **(cspell)** update word list - ([e4f2af5](https://github.com/MRDGH2821/copier-mr-nix/commit/e4f2af5c302dae5a5dcd97e6294208ea4298d5da)) - MRDGH2821
+- **(megalinter)** update config - ([b0cc332](https://github.com/MRDGH2821/copier-mr-nix/commit/b0cc332ddf563162428f9d91d67d637048fbd374)) - MRDGH2821
+- add ignore config - ([6ce4548](https://github.com/MRDGH2821/copier-mr-nix/commit/6ce45480d905416b5c56d4f4bc17f70dee23e8f6)) - MRDGH2821
 
 ---
 
-## [0.0.6](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.5..v0.0.6) - 2026-01-12
+## [0.0.6](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.5..v0.0.6) - 2026-01-12
 
 ### Bug Fixes
 
-- **(pre-commit)** fix hook stage - ([8d36eaa](https://github.com/MRDGH2821/copier-mr-minimal/commit/8d36eaa782c46a99f9feed20fe65c804c6cd90d6)) - MRDGH2821
+- **(pre-commit)** fix hook stage - ([8d36eaa](https://github.com/MRDGH2821/copier-mr-nix/commit/8d36eaa782c46a99f9feed20fe65c804c6cd90d6)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(copier)** add answers file path - ([a92bc46](https://github.com/MRDGH2821/copier-mr-minimal/commit/a92bc46f6e294e545104c2bd541e73a0857437ba)) - MRDGH2821
-- **(pre-commit)** remove megalinter commit hook - ([9e00516](https://github.com/MRDGH2821/copier-mr-minimal/commit/9e005164de6bf6ce016c1260ce9fd879dd00c571)) - MRDGH2821
+- **(copier)** add answers file path - ([a92bc46](https://github.com/MRDGH2821/copier-mr-nix/commit/a92bc46f6e294e545104c2bd541e73a0857437ba)) - MRDGH2821
+- **(pre-commit)** remove megalinter commit hook - ([9e00516](https://github.com/MRDGH2821/copier-mr-nix/commit/9e005164de6bf6ce016c1260ce9fd879dd00c571)) - MRDGH2821
 
 ---
 
-## [0.0.5](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.4..v0.0.5) - 2026-01-12
+## [0.0.5](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.4..v0.0.5) - 2026-01-12
 
 ### Miscellaneous Chores
 
-- add prettier config - ([1b4df33](https://github.com/MRDGH2821/copier-mr-minimal/commit/1b4df3353e0c5466fd0f6c172d2e8a19d55d0eb0)) - MRDGH2821
+- add prettier config - ([1b4df33](https://github.com/MRDGH2821/copier-mr-nix/commit/1b4df3353e0c5466fd0f6c172d2e8a19d55d0eb0)) - MRDGH2821
 
 ---
 
-## [0.0.4](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.3..v0.0.4) - 2026-01-11
+## [0.0.4](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.3..v0.0.4) - 2026-01-11
 
 ### Miscellaneous Chores
 
-- **(cspell)** update wordlist - ([8d64422](https://github.com/MRDGH2821/copier-mr-minimal/commit/8d644223fcf09f0a07c37870ec0ec8ab91b5cc4d)) - MRDGH2821
-- **(github)** add funding.yaml - ([a3a21be](https://github.com/MRDGH2821/copier-mr-minimal/commit/a3a21bed0b4d70e542419fdaf9752bfb1146d7be)) - MRDGH2821
+- **(cspell)** update wordlist - ([8d64422](https://github.com/MRDGH2821/copier-mr-nix/commit/8d644223fcf09f0a07c37870ec0ec8ab91b5cc4d)) - MRDGH2821
+- **(github)** add funding.yaml - ([a3a21be](https://github.com/MRDGH2821/copier-mr-nix/commit/a3a21bed0b4d70e542419fdaf9752bfb1146d7be)) - MRDGH2821
 
 ---
 
-## [0.0.3](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.2..v0.0.3) - 2026-01-11
+## [0.0.3](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.2..v0.0.3) - 2026-01-11
 
 ### Bug Fixes
 
-- **(copier)** use different file name for pre-commit config - ([d957fab](https://github.com/MRDGH2821/copier-mr-minimal/commit/d957fabc1df77495673015f3e2bcd49dec70e815)) - MRDGH2821
+- **(copier)** use different file name for pre-commit config - ([d957fab](https://github.com/MRDGH2821/copier-mr-nix/commit/d957fabc1df77495673015f3e2bcd49dec70e815)) - MRDGH2821
 
 ---
 
-## [0.0.2](https://github.com/MRDGH2821/copier-mr-minimal/compare/v0.0.1..v0.0.2) - 2026-01-11
+## [0.0.2](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.0.1..v0.0.2) - 2026-01-11
 
 ### Bug Fixes
 
-- **(copier)** fix question - ([75de931](https://github.com/MRDGH2821/copier-mr-minimal/commit/75de9315ee81988d908cf330254bc67050d83eaa)) - MRDGH2821
+- **(copier)** fix question - ([75de931](https://github.com/MRDGH2821/copier-mr-nix/commit/75de9315ee81988d908cf330254bc67050d83eaa)) - MRDGH2821
 
 ### Miscellaneous Chores
 
-- **(copier)** add post generation task - ([68387db](https://github.com/MRDGH2821/copier-mr-minimal/commit/68387dbe1bcf5ea497786279a22b3e8210e6940d)) - MRDGH2821
-- **(cspell)** update words - ([8a6044d](https://github.com/MRDGH2821/copier-mr-minimal/commit/8a6044d8b1a56a6f08b4fe30d91b27166339f5e0)) - MRDGH2821
-- **(megalinter)** update config & remove comments - ([0797ad4](https://github.com/MRDGH2821/copier-mr-minimal/commit/0797ad4e77ef6c44ae057c333351829526a5ca60)) - MRDGH2821
-- **(pre-commit)** add a new scope - ([9a36005](https://github.com/MRDGH2821/copier-mr-minimal/commit/9a360055320e3a8c59abe0824df859486030a0ff)) - MRDGH2821
+- **(copier)** add post generation task - ([68387db](https://github.com/MRDGH2821/copier-mr-nix/commit/68387dbe1bcf5ea497786279a22b3e8210e6940d)) - MRDGH2821
+- **(cspell)** update words - ([8a6044d](https://github.com/MRDGH2821/copier-mr-nix/commit/8a6044d8b1a56a6f08b4fe30d91b27166339f5e0)) - MRDGH2821
+- **(megalinter)** update config & remove comments - ([0797ad4](https://github.com/MRDGH2821/copier-mr-nix/commit/0797ad4e77ef6c44ae057c333351829526a5ca60)) - MRDGH2821
+- **(pre-commit)** add a new scope - ([9a36005](https://github.com/MRDGH2821/copier-mr-nix/commit/9a360055320e3a8c59abe0824df859486030a0ff)) - MRDGH2821
 
 ### Ci
 
-- **(megalinter)** set top level permissions to read-all - ([c35acea](https://github.com/MRDGH2821/copier-mr-minimal/commit/c35acea726b71fa1b656f3fef75453a439c76939)) - MRDGH2821
+- **(megalinter)** set top level permissions to read-all - ([c35acea](https://github.com/MRDGH2821/copier-mr-nix/commit/c35acea726b71fa1b656f3fef75453a439c76939)) - MRDGH2821
 
 ---
 
@@ -1013,11 +1035,11 @@ All notable changes to this project will be documented in this file. See [conven
 
 ### Miscellaneous Chores
 
-- **(pre-commit)** update scopes - ([4182a06](https://github.com/MRDGH2821/copier-mr-minimal/commit/4182a0639dbfc427ca412f2dd6af23877f364c19)) - MRDGH2821
-- inital commit - ([4c6c6eb](https://github.com/MRDGH2821/copier-mr-minimal/commit/4c6c6eb83760dc028e971492194b922af64d19b9)) - MRDGH2821
+- **(pre-commit)** update scopes - ([4182a06](https://github.com/MRDGH2821/copier-mr-nix/commit/4182a0639dbfc427ca412f2dd6af23877f364c19)) - MRDGH2821
+- inital commit - ([4c6c6eb](https://github.com/MRDGH2821/copier-mr-nix/commit/4c6c6eb83760dc028e971492194b922af64d19b9)) - MRDGH2821
 
 ### Ci
 
-- **(megalinter)** add config - ([61263c0](https://github.com/MRDGH2821/copier-mr-minimal/commit/61263c0f617c3c9293b97fd1abeb8b4c63d30aee)) - MRDGH2821
+- **(megalinter)** add config - ([61263c0](https://github.com/MRDGH2821/copier-mr-nix/commit/61263c0f617c3c9293b97fd1abeb8b4c63d30aee)) - MRDGH2821
 
 <!-- generated by git-cliff -->

@@ -1,6 +1,6 @@
 {
   "name": "copier-mr-minimal",
-  "version": "0.37.0",
+  "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
     "prettier": "^3.9.6"
