@@ -3,7 +3,7 @@ author: MRDGH2821
 dependencies:
   apm:
     - git: https://github.com/vercel-labs/skills
-      ref: 1.5.22
+      ref: 1.5.23
       skills:
         - find-skills
     - git: https://github.com/github/awesome-copilot
