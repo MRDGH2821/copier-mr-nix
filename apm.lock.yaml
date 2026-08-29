@@ -595,8 +595,8 @@ dependencies:
     resolved_ref: v10.0.0
     resolved_tag: v10.0.0
     version: 10.0.0
-  - constraint: 1.5.22
-    content_hash: sha256:e6d06ca594a9ba70886fb2382605e7060d3af88bd6a163f2c9cb46d07dc15c5b
+  - constraint: 1.5.23
+    content_hash: sha256:7530862c97988f22ac8b8117e104a829bce5692c5869e467c027471243ccb201
     deployed_file_hashes:
       .agents/skills/find-skills/SKILL.md: sha256:c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f
       .claude/skills/find-skills/SKILL.md: sha256:c00eeea0e13e74fe4a9d84ba0a8542205a1b736d65f13134fe1a6647eb14976f
@@ -609,13 +609,13 @@ dependencies:
     name: skills
     package_type: skill_bundle
     repo_url: vercel-labs/skills
-    resolved_at: "2026-08-28T01:47:13+00:00"
-    resolved_commit: a4d243c3d4f86cdf9385dd1b6a0733f6937e70b5
-    resolved_ref: v1.5.22
-    resolved_tag: v1.5.22
+    resolved_at: "2026-08-29T22:22:54+00:00"
+    resolved_commit: 435076e78988e1e6ec40d00b0b1d76bdbbc5419a
+    resolved_ref: v1.5.23
+    resolved_tag: v1.5.23
     skill_subset:
       - find-skills
-    version: 1.5.22
+    version: 1.5.23
 deployments:
   - active_owner: vercel-labs/skills
     content_hash:
@@ -3299,7 +3299,7 @@ deployments:
     scope: project
     target: mcp
     value: mcp-nixos
-generated_at: "2026-08-28T01:47:24.378680+00:00"
+generated_at: "2026-08-29T22:23:02.937166+00:00"
 lockfile_version: "2"
 mcp_configs:
   mcp-nixos:
