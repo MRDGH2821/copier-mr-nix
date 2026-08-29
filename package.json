@@ -1,5 +1,5 @@
 {
-  "name": "copier-mr-minimal",
+  "name": "copier-mr-nix",
   "version": "1.1.0",
   "license": "MIT",
   "devDependencies": {

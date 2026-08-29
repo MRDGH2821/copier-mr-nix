@@ -1,5 +1,5 @@
 {
-  description = "copier-mr-minimal dev shell";
+  description = "copier-mr-nix dev shell";
   inputs = {
     blueprint = {
       inputs.nixpkgs.follows = "nixpkgs";

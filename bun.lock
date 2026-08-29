@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "copier-mr-minimal",
+      "name": "copier-mr-nix",
       "devDependencies": {
         "prettier": "^3.9.6",
       },

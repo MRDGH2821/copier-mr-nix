@@ -20,7 +20,7 @@ dependencies:
       transport: stdio
 description: Copier template for my projects
 includes: auto
-name: copier-mr-minimal
+name: copier-mr-nix
 scripts:
   antigravity: agy plugin install https://github.com/obra/superpowers
   claude: |

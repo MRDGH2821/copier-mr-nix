@@ -191,7 +191,7 @@ Configuration lives in `apm.yml`. Do not skip this when skills or MCP tools are 
 
 ## Project Context
 
-- **Project Type**: Project generated from copier-mr-minimal
+- **Project Type**: Project generated from copier-mr-nix
 - **Key Technologies**: Nix flake + [Blueprint](https://numtide.github.io/blueprint/) (`nix/`), git-hooks.nix with `prek`, MegaLinter, treefmt-nix, cocogitto, Copier, direnv
 - **Purpose**: Standardized starting point for new projects with quality checks and a reproducible Nix env
 

@@ -1,11 +1,11 @@
-# copier-mr-minimal
+# copier-mr-nix
 
 Copier config for my projects.
 
 To use:
 
 ```sh
-copier copy gh:MRDGH2821/copier-mr-minimal "/path/to/folder"
+copier copy gh:MRDGH2821/copier-mr-nix "/path/to/folder"
 ```
 
 To update:
