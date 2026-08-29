@@ -27,7 +27,7 @@ inputs.git-hooks.lib.${pkgs.stdenv.hostPlatform.system}.run {
         "--file"
       ];
       enable = true;
-      entry = "${lib.getExe pkgs.cocogitto}";
+      entry = lib.getExe pkgs.cocogitto;
       name = "Cocogitto commits check";
       stages = ["commit-msg"];
     };
@@ -54,7 +54,7 @@ inputs.git-hooks.lib.${pkgs.stdenv.hostPlatform.system}.run {
     };
     ls-lint = {
       enable = true;
-      entry = "${lib.getExe pkgs.ls-lint}";
+      entry = lib.getExe pkgs.ls-lint;
       name = "ls-lint";
       stages = ["pre-commit"];
     };
