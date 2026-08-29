@@ -4,6 +4,31 @@ All notable changes to this project will be documented in this file. See [conven
 
 ---
 
+## [1.2.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v1.1.0..v1.2.0) - 2026-08-29
+
+### Bug Fixes
+
+- **(pre-commit)** ignore git-cliff commit-hash links in CHANGELOG.md typos - ([58d4eab](https://github.com/MRDGH2821/copier-mr-nix/commit/58d4eabd505995e4266057204e7aeab4fa78c063)) - MRDGH2821
+
+### Documentation
+
+- recommend .config/ directory convention for generated tools - ([514e9a8](https://github.com/MRDGH2821/copier-mr-nix/commit/514e9a84f853adb7a4276411843844be0f1506bd)) - MRDGH2821
+
+### Features
+
+- add typos config - ([36586cc](https://github.com/MRDGH2821/copier-mr-nix/commit/36586cc60efda6dc8426c1984b4416bafdd0e284)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- update apm.lock.yaml - ([fd002e8](https://github.com/MRDGH2821/copier-mr-nix/commit/fd002e818e5bfa330e613500af6f1756dea8b8e9)) - MRDGH2821
+- rename project from copier-mr-minimal to copier-mr-nix - ([5e13f9d](https://github.com/MRDGH2821/copier-mr-nix/commit/5e13f9d64181470ef445a5b404e9faf7e7f37e4f)) - MRDGH2821
+
+### Refactoring
+
+- **(nix)** source pre-commit shellHook from flake checks output - ([9985a5f](https://github.com/MRDGH2821/copier-mr-nix/commit/9985a5f1a365b5d0b70a3cee5603287eeb2946ff)) - MRDGH2821
+
+---
+
 ## [1.1.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v1.0.0..v1.1.0) - 2026-08-29
 
 ### Features
