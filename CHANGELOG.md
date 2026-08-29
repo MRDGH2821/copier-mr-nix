@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file. See [conven
 
 ---
 
+## [1.1.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v1.0.0..v1.1.0) - 2026-08-29
+
+### Features
+
+- add claude.md - ([95cd1b6](https://github.com/MRDGH2821/copier-mr-nix/commit/95cd1b6b1f78463eee7ef2f25adce85ef1987e30)) - MRDGH2821
+
+---
+
 ## [1.0.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v0.37.0..v1.0.0) - 2026-08-28
 
 ### Features
