@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file. See [conven
 
 ---
 
+## [1.3.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v1.2.0..v1.3.0) - 2026-08-30
+
+### Documentation
+
+- update sentence - ([2948fd3](https://github.com/MRDGH2821/copier-mr-nix/commit/2948fd373e658d834d1008233828834f603f3db8)) - MRDGH2821
+
+### Features
+
+- add tombi config - ([3bf7efb](https://github.com/MRDGH2821/copier-mr-nix/commit/3bf7efb31c478e5944af00e505c6f16ffeb10daa)) - MRDGH2821
+- add codex target & script - ([de08c6b](https://github.com/MRDGH2821/copier-mr-nix/commit/de08c6bd6e4357296a7651d1c7d9b94f624f8433)) - MRDGH2821
+- update configs & path - ([66d98fb](https://github.com/MRDGH2821/copier-mr-nix/commit/66d98fb3a1ae5b074b928d01ca8ece159318afcd)) - MRDGH2821
+
+### Refactoring
+
+- rename file - ([b5744b5](https://github.com/MRDGH2821/copier-mr-nix/commit/b5744b5b2331a8f891de899586bb46a91923c162)) - MRDGH2821
+
+---
+
 ## [1.2.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v1.1.0..v1.2.0) - 2026-08-29
 
 ### Bug Fixes
