@@ -12,7 +12,12 @@
     };
     beautysh.enable = true;
     deadnix.enable = true;
-    djlint.enable = true;
+    djlint = {
+      enable = true;
+      indent = 2;
+      lint = true;
+      priority = 10;
+    };
     dockerfmt.enable = true;
     dockfmt.enable = true;
     dos2unix.enable = true;
@@ -126,6 +131,7 @@
         ];
         priority = 9;
       };
+      djlint.options = ["--single-attribute-per-line"];
       prettypst-default = {
         command = "${lib.getExe pkgs.prettypst}";
         includes = ["*.typ"];
@@ -190,10 +196,12 @@
     global = {
       allow-missing-formatter = true;
       excludes = [
-        "**/skills/**"
+        # keep-sorted start
         "**/apm_modules/**"
         "**/node_modules/**"
+        "**/skills/**"
         ".gitattributes"
+        # keep-sorted end
       ];
     };
   };
