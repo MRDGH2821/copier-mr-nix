@@ -30,23 +30,25 @@
 
 ### File map (what changes where)
 
-| File | copier-mr-mise | copier-mr-nix |
-|------|:--------------:|:-------------:|
-| `.mega-linter.yml` (root + template/) | merge DISABLE list into existing richness | adopt full merged target |
-| `.ls-lint.yml` (root + template/) | comment fix only (rules already kebab) | `.ts`/`.d.ts` → kebab + comment |
-| `.prettierrc.json` (root + template/) | no change (already correct) | add `singleQuote: false` |
-| `.yamlfix.toml` (root + template/) | no change (already correct) | add quote options |
-| `copier.yml` | add CLAUDE.md exclude | already has exclude; leave lic-cli |
-| `template/.gitlab-ci.yml` | image v9.6.0 → v10.0.0 | n/a (GL already v10) |
-| `AGENTS.md` (+ template if present) | v9.6.0 → v10.0.0 in MegaLinter doc line | only if v9 refs remain |
-| `.github/workflows/mega-linter.yml` (root + template/) | already v10 SHA | pin to v10 SHA |
-| `apm.yml` | already `ref: v10.0.0` | `ref: 10.0.0` → `ref: v10.0.0` |
-| `.agents/logs/2026-09-05.md` | append | append |
+| File                                                   |              copier-mr-mise               |           copier-mr-nix            |
+| ------------------------------------------------------ | :---------------------------------------: | :--------------------------------: |
+| `.mega-linter.yml` (root + template/)                  | merge DISABLE list into existing richness |      adopt full merged target      |
+| `.ls-lint.yml` (root + template/)                      |  comment fix only (rules already kebab)   |  `.ts`/`.d.ts` → kebab + comment   |
+| `.prettierrc.json` (root + template/)                  |        no change (already correct)        |      add `singleQuote: false`      |
+| `.yamlfix.toml` (root + template/)                     |        no change (already correct)        |         add quote options          |
+| `copier.yml`                                           |           add CLAUDE.md exclude           | already has exclude; leave lic-cli |
+| `template/.gitlab-ci.yml`                              |          image v9.6.0 → v10.0.0           |        n/a (GL already v10)        |
+| `AGENTS.md` (+ template if present)                    |  v9.6.0 → v10.0.0 in MegaLinter doc line  |       only if v9 refs remain       |
+| `.github/workflows/mega-linter.yml` (root + template/) |              already v10 SHA              |           pin to v10 SHA           |
+| `apm.yml`                                              |          already `ref: v10.0.0`           |   `ref: 10.0.0` → `ref: v10.0.0`   |
+| `.agents/logs/2026-09-05.md`                           |                  append                   |               append               |
 
 ---
+
 ### Task 1: copier-mr-mise — mega-linter merge, GL/AGENTS v10, CLAUDE exclude, ls-lint comment
 
 **Files:**
+
 - Modify: `.mega-linter.yml`
 - Modify: `template/.mega-linter.yml` (must match root)
 - Modify: `.ls-lint.yml`
@@ -58,6 +60,7 @@
 - Create/Append: `.agents/logs/2026-09-05.md`
 
 **Interfaces:**
+
 - Consumes: decided merged mega-linter target; nix DISABLE keep-sorted list of 5.
 - Produces: mise repo on `mihir/chore/config-sync` with merged `.mega-linter.yml`, v10 GL/docs, CLAUDE exclude, corrected ls-lint comment; sibling-ready configs for Tasks 2–4.
 
@@ -185,7 +188,7 @@ cmp .ls-lint.yml template/.ls-lint.yml
 In `copier.yml` `_exclude`, add the following line next to the existing AGENTS.md exclude (alphabetically after AGENTS.md):
 
 ```yaml
-  - "{% if not use_agents %}CLAUDE.md{% endif %}"
+- "{% if not use_agents %}CLAUDE.md{% endif %}"
 ```
 
 Target `_exclude` / `_tasks` region after edit (lic-cli task unchanged):
@@ -228,13 +231,13 @@ Expected: one CLAUDE.md exclude gated on `not use_agents`; `uvx --from lic-cli l
 In `template/.gitlab-ci.yml`, change:
 
 ```yaml
-  image: ghcr.io/oxsecurity/megalinter:v9.6.0
+image: ghcr.io/oxsecurity/megalinter:v9.6.0
 ```
 
 to:
 
 ```yaml
-  image: ghcr.io/oxsecurity/megalinter:v10.0.0
+image: ghcr.io/oxsecurity/megalinter:v10.0.0
 ```
 
 ```bash
@@ -323,9 +326,11 @@ git commit -F /tmp/commitmsg-mise-t1.txt
 Expected: commit succeeds; `git status` clean for these paths; branch not pushed.
 
 ---
+
 ### Task 2: copier-mr-nix — prettier / yamlfix / ls-lint align
 
 **Files:**
+
 - Modify: `.prettierrc.json`
 - Modify: `template/.prettierrc.json`
 - Modify: `.yamlfix.toml`
@@ -335,6 +340,7 @@ Expected: commit succeeds; `git status` clean for these paths; branch not pushed
 - Create/Append: `.agents/logs/2026-09-05.md`
 
 **Interfaces:**
+
 - Consumes: mise canonical prettier / yamlfix / ls-lint from Task 1 / current mise.
 - Produces: nix smaller policy files byte-matching mise (comment + kebab rules).
 
@@ -492,9 +498,11 @@ git commit -F /tmp/commitmsg-nix-t2.txt
 ```
 
 ---
+
 ### Task 3: copier-mr-nix — mega-linter merge + GH pin + apm ref
 
 **Files:**
+
 - Modify: `.mega-linter.yml`
 - Modify: `template/.mega-linter.yml`
 - Modify: `.github/workflows/mega-linter.yml`
@@ -503,6 +511,7 @@ git commit -F /tmp/commitmsg-nix-t2.txt
 - Create/Append: `.agents/logs/2026-09-05.md`
 
 **Interfaces:**
+
 - Consumes: merged mega-linter target from Task 1; GH SHA `15e5b45552097e318c93de385779ce3b1084052c`.
 - Produces: nix MegaLinter config + GH/apm pins matching mise v10.
 
@@ -574,7 +583,7 @@ Expected: identical to mise after Task 1.
 In both `.github/workflows/mega-linter.yml` and `template/.github/workflows/mega-linter.yml`, replace the `uses:` pin line with:
 
 ```yaml
-        uses: oxsecurity/megalinter@15e5b45552097e318c93de385779ce3b1084052c # v10.0.0
+uses: oxsecurity/megalinter@15e5b45552097e318c93de385779ce3b1084052c # v10.0.0
 ```
 
 (Replace any `ef3e84b8b836d76db562d0f3ed7da61e8fd538bc # v9.6.0` or other SHA.)
@@ -590,13 +599,13 @@ Expected: both files show `15e5b45552097e318c93de385779ce3b1084052c # v10.0.0` o
 In `apm.yml`, change:
 
 ```yaml
-      ref: 10.0.0
+ref: 10.0.0
 ```
 
 to:
 
 ```yaml
-      ref: v10.0.0
+ref: v10.0.0
 ```
 
 for the `oxsecurity/megalinter` git dependency (keep surrounding structure).
@@ -668,13 +677,16 @@ git commit -F /tmp/commitmsg-nix-t3.txt
 ```
 
 ---
+
 ### Task 4: Cross-repo verification (do not push)
 
 **Files:**
+
 - Read-only verification across `../copier-mr-mise` and `../copier-mr-nix`
 - Optional append: each repo’s `.agents/logs/2026-09-05.md` with verification notes
 
 **Interfaces:**
+
 - Consumes: Tasks 1–3 commits on `mihir/chore/config-sync`.
 - Produces: confirmation that policy surfaces match; no push.
 
@@ -713,6 +725,7 @@ rg -n 'oxsecurity/megalinter@|megalinter:v|megalinter v|ref:.*10' \
 ```
 
 Expected:
+
 - GH `uses:` → `15e5b45552097e318c93de385779ce3b1084052c # v10.0.0` in both repos (root + template).
 - GL images → `v10.0.0` (mise `template/.gitlab-ci.yml`; nix `template/.gitlab/workflows/megalinter.yml`).
 - apm `ref: v10.0.0` in both.

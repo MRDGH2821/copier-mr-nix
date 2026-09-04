@@ -4,10 +4,10 @@
 
 Align shared Copier-template policy configs between the personal **mise** and **nix** templates so lint/CI defaults match where intended, without collapsing the intentional product fork (mise + hk vs Nix flake).
 
-| Template | Role |
-|----------|------|
+| Template       | Role                                           |
+| -------------- | ---------------------------------------------- |
 | copier-mr-mise | Personal; mise + hk; dual CI (GitHub / GitLab) |
-| copier-mr-nix | Personal; Nix flake; dual CI (GitHub / GitLab) |
+| copier-mr-nix  | Personal; Nix flake; dual CI (GitHub / GitLab) |
 
 **Approach:** surgical align — apply decided deltas per repo (independent change sets). No shared config pack or submodule in this pass.
 
@@ -32,16 +32,16 @@ Spec home: `docs/superpowers/specs/` in copier-mr-nix. Implementation touches bo
 
 ## Decided alignments
 
-| Concern | Decision |
-|---------|----------|
-| MegaLinter version | Pin **v10.0.0** everywhere it appears (GitHub actions and GitLab images/jobs) |
-| MegaLinter config | **Merge** (union of mise richness and nix settings), adapted per CI host |
-| ls-lint `.ts` / `.d.ts` | **kebab-case** in both |
-| prettier + yamlfmt | Adopt **mise** options into nix |
-| Root vs `template/` | **Root wins**, then refresh `template/` |
-| CLAUDE.md | Present in both **with exclusion rules** when agents are off (match nix’s pattern; add to mise) |
-| lic-cli post-copy | Keep on **both** personal templates |
-| Cross-repo hierarchy | None — apply the table above, not “repo X is canonical” |
+| Concern                 | Decision                                                                                        |
+| ----------------------- | ----------------------------------------------------------------------------------------------- |
+| MegaLinter version      | Pin **v10.0.0** everywhere it appears (GitHub actions and GitLab images/jobs)                   |
+| MegaLinter config       | **Merge** (union of mise richness and nix settings), adapted per CI host                        |
+| ls-lint `.ts` / `.d.ts` | **kebab-case** in both                                                                          |
+| prettier + yamlfmt      | Adopt **mise** options into nix                                                                 |
+| Root vs `template/`     | **Root wins**, then refresh `template/`                                                         |
+| CLAUDE.md               | Present in both **with exclusion rules** when agents are off (match nix’s pattern; add to mise) |
+| lic-cli post-copy       | Keep on **both** personal templates                                                             |
+| Cross-repo hierarchy    | None — apply the table above, not “repo X is canonical”                                         |
 
 ## Architecture (work units)
 
