@@ -10,7 +10,7 @@ dependencies:
       skills:
         - git-commit
     - git: https://github.com/oxsecurity/megalinter
-      ref: 10.0.0
+      ref: v10.0.0
   mcp:
     - args:
         - mcp-nixos
