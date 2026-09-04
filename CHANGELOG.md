@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file. See [conven
 
 ---
 
+## [1.3.1](https://github.com/MRDGH2821/copier-mr-nix/compare/v1.3.0..v1.3.1) - 2026-09-04
+
+### Bug Fixes
+
+- exclude CLAUDE.md if agents not used - ([5abd16c](https://github.com/MRDGH2821/copier-mr-nix/commit/5abd16caf5ba0675bfe836c23910218d23d8d774)) - MRDGH2821
+
+### Documentation
+
+- add mise/nix config sync design - ([f83441e](https://github.com/MRDGH2821/copier-mr-nix/commit/f83441e029114799b9182eccdc46f26baadb799f)) - MRDGH2821
+- add mise/nix config sync implementation plan - ([534cdae](https://github.com/MRDGH2821/copier-mr-nix/commit/534cdae231f23a16fa693ebd88936c18d058e4e7)) - MRDGH2821
+- record cross-repo config-sync verification - ([2adf303](https://github.com/MRDGH2821/copier-mr-nix/commit/2adf303c0798ce37135d0c6b639951a6400a9a82)) - MRDGH2821
+
+### Miscellaneous Chores
+
+- align prettier, yamlfix, and ls-lint with mise - ([27aa393](https://github.com/MRDGH2821/copier-mr-nix/commit/27aa3939f3798fe03ad2401f4b0ac35279bcb872)) - MRDGH2821
+- merge mega-linter config and pin MegaLinter v10 - ([629cd7b](https://github.com/MRDGH2821/copier-mr-nix/commit/629cd7ba2898fa5ccae2b7439250ee3d8f7369a9)) - MRDGH2821
+
+---
+
 ## [1.3.0](https://github.com/MRDGH2821/copier-mr-nix/compare/v1.2.0..v1.3.0) - 2026-08-30
 
 ### Documentation
