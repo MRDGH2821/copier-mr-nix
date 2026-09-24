@@ -1,0 +1,71 @@
+version: 1
+generator: capa@2.2.2
+generatedAt: '2026-09-24T23:38:57.990Z'
+skills:
+  - id: bootstrap
+    source: github
+    repo: infragate/capa
+    skillName: bootstrap
+    requestedVersion: null
+    requestedRef: null
+    resolvedRef: 7f868cd23ea59db5f5b50122a4ed57a101905f50
+    resolvedVersion: null
+  - id: capabilities-manager
+    source: github
+    repo: infragate/capa
+    skillName: capabilities-manager
+    requestedVersion: null
+    requestedRef: null
+    resolvedRef: 7f868cd23ea59db5f5b50122a4ed57a101905f50
+    resolvedVersion: null
+  - id: gh
+    source: github
+    repo: cli/cli
+    skillName: gh
+    requestedVersion: null
+    requestedRef: null
+    resolvedRef: 0cf1092493af067646fc5f3db9421c6a6ec9c938
+    resolvedVersion: null
+  - id: git-commit
+    source: github
+    repo: github/awesome-copilot
+    skillName: git-commit
+    requestedVersion: null
+    requestedRef: null
+    resolvedRef: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+    resolvedVersion: null
+plugins:
+  - id: megalinter
+    source: github
+    repo: oxsecurity/megalinter
+    subpath: null
+    requestedSearchName: null
+    requestedVersion: null
+    requestedRef: null
+    resolvedRef: 9949bad031045f366be2467e00e8371a7328a2e2
+    resolvedVersion: null
+    manifestName: megalinter
+    manifestVersion: 1.0.5
+  - id: paad
+    source: github
+    repo: Ovid/paad
+    subpath: plugins/paad
+    requestedSearchName: null
+    requestedVersion: null
+    requestedRef: null
+    resolvedRef: 349bdf572b0da100bb200a1b963786050060c827
+    resolvedVersion: null
+    manifestName: paad
+    manifestVersion: 1.31.0
+  - id: superpowers
+    source: github
+    repo: obra/superpowers
+    subpath: null
+    requestedSearchName: null
+    requestedVersion: null
+    requestedRef: null
+    resolvedRef: 5bf4e78011075bcfc0dc295f0724994cd123ee71
+    resolvedVersion: null
+    manifestName: superpowers
+    manifestVersion: 6.4.1
+hooks: []
