@@ -5,14 +5,13 @@ from_latest_tag = false
 generate_mono_repository_global_tag = true
 generate_mono_repository_package_tags = true
 ignore_fixup_commits = false
-ignore_merge_commits = false
+ignore_merge_commits = true
 post_bump_hooks = []
 post_package_bump_hooks = []
 pre = "alpha.*"
 pre_bump_hooks = [
   "echo 'bumping from {{latest_tag|0.0.0}} to {{version_tag|0.0.1}}'",
   "bun pm version {{version}} --no-git-tag-version",
-  "yq -i '.version = \"{{version}}\"' apm.yml",
   "bunx git-cliff -o CHANGELOG.md --tag {{version_tag}}",
   "nix fmt -- CHANGELOG.md apm.yml"
 ]
