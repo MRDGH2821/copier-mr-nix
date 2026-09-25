@@ -60,6 +60,8 @@
       enable = true;
       priority = 9;
     };
+    rumdl-check.enable = true;
+    rumdl-format.enable = true;
     rustfmt.enable = true;
     shellcheck.enable = true;
     shfmt.enable = true;
@@ -132,6 +134,23 @@
         priority = 9;
       };
       djlint.options = ["--single-attribute-per-line"];
+      jscpd-sort = {
+        command = "yq";
+        includes = [
+          # keep-sorted start
+          "**/.jscpd*"
+          "**/jscpd*"
+          ".jscpd*"
+          "jscpd*"
+          # keep-sorted end
+        ];
+        no-positional-arg-support = true;
+        options = [
+          "-i"
+          ".ignore|= sort_by(downcase)|.reporters|=sort_by(downcase)"
+        ];
+        priority = 9;
+      };
       prettypst-default = {
         command = "${lib.getExe pkgs.prettypst}";
         includes = ["*.typ"];

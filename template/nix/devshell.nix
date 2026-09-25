@@ -12,7 +12,6 @@ pkgs.mkShell {
     copier
     git
     git-credential-oauth
-    glab
     lazygit
     nil
     nixd
