@@ -63,7 +63,6 @@
 
 - Consumes: decided merged mega-linter target; nix DISABLE keep-sorted list of 5.
 - Produces: mise repo on `mihir/chore/config-sync` with merged `.mega-linter.yml`, v10 GL/docs, CLAUDE exclude, corrected ls-lint comment; sibling-ready configs for Tasks 2–4.
-
 - [ ] **Step 1: Create branch**
 
 ```bash
@@ -343,7 +342,6 @@ Expected: commit succeeds; `git status` clean for these paths; branch not pushed
 
 - Consumes: mise canonical prettier / yamlfix / ls-lint from Task 1 / current mise.
 - Produces: nix smaller policy files byte-matching mise (comment + kebab rules).
-
 - [ ] **Step 1: Create branch**
 
 ```bash
@@ -689,7 +687,6 @@ git commit -F /tmp/commitmsg-nix-t3.txt
 
 - Consumes: Tasks 1–3 commits on `mihir/chore/config-sync`.
 - Produces: confirmation that policy surfaces match; no push.
-
 - [ ] **Step 1: Byte-identical shared policy files**
 
 From `copier-mr-nix` (sibling of mise):
@@ -731,7 +728,6 @@ Expected:
 - apm `ref: v10.0.0` in both.
 - **No** `v9.6.0` / `ef3e84b8` remaining in those surfaces.
 - mise AGENTS.md documents v10.0.0.
-
 - [ ] **Step 3: CLAUDE exclude + lic-cli on both**
 
 ```bash

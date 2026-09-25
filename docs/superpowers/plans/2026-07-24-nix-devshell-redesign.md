@@ -26,7 +26,9 @@
 - [ ] **Step 1: Update treefmt.nix with 32 requested programs and custom formatters**
 
 Enable all 32 programs requested in `nix-devshell-redesign.md`:
-`actionlint`, `alejandra`, `beautysh`, `deadnix`, `djlint`, `dockerfmt`, `dockfmt`, `dos2unix`, `flake-edit`, `genemichaels`, `json-sort-cli`, `just`, `keep-sorted`, `nbstripout`, `nixf-diagnose`, `nixfmt`, `nixpkgs-fmt`, `prettier` (`settingsFile = ".prettierrc.json"`), `ruff-check`, `ruff-format`, `shellcheck`, `shfmt`, `sqlfluff`, `sqlfluff-lint`, `statix`, `taplo`, `toml-sort`, `typos`, `typstyle`, `xmllint`, `yamllint`, `zizmor`. Also retain custom formatters (`cspell-sort`, `ignore-files-formatter`, `prettypst-default`, `prettypst-otbs`, `sort-markdown-tables`, `sort-package-json`, `tombi-format`, `yamlfix`, `yq-key-sort`).
+`actionlint`, `alejandra`, `beautysh`, `deadnix`, `djlint`, `dockerfmt`, `dockfmt`, `dos2unix`, `flake-edit`, `genemichaels`, `json-sort-cli`, `just`, `keep-sorted`, `nbstripout`, `nixf-diagnose`, `nixfmt`, `nixpkgs-fmt`, `prettier` (`settingsFile = ".prettierrc.json"`), `ruff-check`, `ruff-format`, `shellcheck`, `shfmt`, `sqlfluff`, `sqlfluff-lint`, `statix`, `taplo`, `toml-sort`, `typos`, `typstyle`, `xmllint`, `yamllint`, `zizmor`. <!-- rumdl-disable-line line-length -->
+
+Also retain custom formatters (`cspell-sort`, `ignore-files-formatter`, `prettypst-default`, `prettypst-otbs`, `sort-markdown-tables`, `sort-package-json`, `tombi-format`, `yamlfix`, `yq-key-sort`).
 
 - [ ] **Step 2: Test treefmt evaluation**
 
