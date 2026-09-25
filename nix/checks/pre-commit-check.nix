@@ -45,6 +45,8 @@ inputs.git-hooks.lib.${pkgs.stdenv.hostPlatform.system}.run {
         "pre-commit"
       ];
     };
+    detect-private-keys.enable = true;
+    flake-checker.enable = true;
     forbidden-files = {
       enable = true;
       entry = "found Copier update rejection files; review and remove them before merging.";
@@ -59,6 +61,7 @@ inputs.git-hooks.lib.${pkgs.stdenv.hostPlatform.system}.run {
       stages = ["pre-commit"];
     };
     ripsecrets.enable = true;
+    trim-trailing-whitespace.enable = true;
     typos = {
       enable = true;
       settings.configPath = "./.typos.toml";
