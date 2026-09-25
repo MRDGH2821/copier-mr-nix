@@ -1,13 +1,9 @@
 ---
-# Install Nix and run flake checks (no signed binary cache).
+# Run Nix flake checks using the official Nix container image.
 nix-flake-check:
-  before_script:
-    - apt-get update
-    - apt-get install -y --no-install-recommends curl ca-certificates xz-utils git
-    - curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install linux --no-confirm --init none
-    - . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
-    - export NIX_CONFIG="accept-flake-config = true"
-  image: debian:stable-slim
+  image: nixos/nix:latest
+  variables:
+    NIX_CONFIG: "experimental-features = nix-command flakes\naccept-flake-config = true"
   script:
     - nix flake check
   stage: test
