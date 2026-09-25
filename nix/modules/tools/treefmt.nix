@@ -60,6 +60,8 @@
       enable = true;
       priority = 9;
     };
+    rumdl-check.enable = true;
+    rumdl-format.enable = true;
     rustfmt.enable = true;
     shellcheck.enable = true;
     shfmt.enable = true;
@@ -131,6 +133,7 @@
         ];
         priority = 9;
       };
+      djlint.options = ["--single-attribute-per-line"];
       jscpd-sort = {
         command = "yq";
         includes = [
@@ -148,7 +151,6 @@
         ];
         priority = 9;
       };
-      djlint.options = ["--single-attribute-per-line"];
       prettypst-default = {
         command = "${lib.getExe pkgs.prettypst}";
         includes = ["*.typ"];
