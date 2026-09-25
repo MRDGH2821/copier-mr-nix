@@ -2,8 +2,10 @@
 # Run Nix flake checks using the official Nix container image.
 nix-flake-check:
   image: nixos/nix:latest
-  variables:
-    NIX_CONFIG: "experimental-features = nix-command flakes\naccept-flake-config = true"
   script:
     - nix flake check
   stage: test
+  variables:
+    NIX_CONFIG: |-
+      experimental-features = nix-command flakes
+      accept-flake-config = true
