@@ -135,7 +135,7 @@
       };
       djlint.options = ["--single-attribute-per-line"];
       jscpd-sort = {
-        command = "yq";
+        command = lib.getExe pkgs.yq-go;
         includes = [
           # keep-sorted start
           "**/.jscpd*"
