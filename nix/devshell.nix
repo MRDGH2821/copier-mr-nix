@@ -1,10 +1,10 @@
 {
   flake,
+  perSystem,
   pkgs,
   ...
 }:
 pkgs.mkShell {
-  inherit (flake.checks.${pkgs.stdenv.hostPlatform.system}.pre-commit-check) shellHook;
   packages = with pkgs; [
     # keep-sorted start
     bun
@@ -15,9 +15,14 @@ pkgs.mkShell {
     lazygit
     nil
     nixd
+    perSystem.self.capa
     repgrep
     ripgrep
     uv
     # keep-sorted end
   ];
+  shellHook = ''
+    ${flake.checks.${pkgs.stdenv.hostPlatform.system}.pre-commit-check.shellHook}
+    capa install --yes || echo "capa: install skipped (offline?)"
+  '';
 }
